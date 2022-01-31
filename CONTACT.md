@@ -4,6 +4,8 @@ Author List:
 
 Jingbo Wang, email: jingbow@usc.edu, github ID: bobowang2223
 
+Jiawei Wang
+
 Chao Wang, email: wang626@usc.edu, github ID: chaowang-vt
 
 \* Corresponding Author
