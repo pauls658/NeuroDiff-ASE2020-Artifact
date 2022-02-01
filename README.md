@@ -1,31 +1,19 @@
-# Table of Contents
-1. [Artifact Contents](#artifact-contents)
-2. [Artifact Location](#artifact-location)
-3. [File Contents](#file-contents)
-4. [Tool Usage Documentation](#tool-usage-documentation)
-5. [Running the Experiments](#running-the-experiments)
+This artifact contains the code for the ASE 2020 Paper "NeuroDiff: Differential Verification of Deep Neural Networks" and documentation on how to use it. We provide a VM working out of the box [here]().
 
-# Artifact Contents
-This artifact contains everything necessary to reproduce the results of our ICSE 2020 Paper "ReluDiff: Differential Verification of Deep Neural Networks." This includes:
-- Source code used to run the experiments on ReluDiff, ReluVal, and DeepPoly
-- Neural networks used in the experiments
-- Tools to produce the truncated networks and subtracted networks
-- Documentation on how use our tools and re-run our experiments
+# Dependencies
 
-# Artifact Location
-We provide a VM with all of ReluDiff, ReluVal, and DeepPoly working out of the box [here](https://drive.google.com/file/d/1rKKUXIBTtHL4M_a8O2__uAJRveXtg4Cj/view?usp=sharing). The username and password are "reludiff" and " " (i.e. a single space character). In addition, we provide instructions for setting up each of the tools on a fresh Ubuntu 16.04 installation in the [INSTALL.md](INSTALL.md) file using our [artifact repo](https://github.com/pauls658/ReluDiff-ICSE2020-Artifact).
 
 # File Contents
-Here we document the contents of the files under ReluDiff-ICSE2020-Artifact in our VM (which is the same as the files found in our [artifact repo](https://github.com/pauls658/ReluDiff-ICSE2020-Artifact)). The documentation for running ReluDiff, ReluVal, DeepPoly, and our various utility scripts can be found in the [next section](#tool-usage-documentation).
+Here we document the source code, which is located in the folder ~/DiffNN-Code in the VM, and DiffNN-Code in this repository. The documentation for running NeuroDiff and ReluDiff can be found in the [next section](#tool-usage-documentation).
 ### DiffNN-Code/ 
-This is the source code of ReluDiff. It has the following files:
+This is the source code of NeuroDiff/ReluDiff. It has the following files:
 #### delta\_network\_test.c
-The main entry point for ReluDiff. It handles parsing the input arguments and starting the verification process.
+The main entry point for the tool. It handles parsing the input arguments and starting the verification process.
 #### nnet.c
 Contains the code for:
 - loading a network (function: *load\_network*)
 - loading an input property (function: *load\_inputs*)
-- performing the forward pass and backward propagation (functions: *forward\_prop\_delta\_symbolic* and *backward\_prop*)
+- performing the forward pass and backward propagation (functions: *forward\_prop\_delta\_neurodiff* and *backward\_prop*)
 #### nnet.h
 Declarations for the functions in nnet.c.
 #### split.c
@@ -64,43 +52,35 @@ This directory contains scripts for:
 #### nnet/
 This directory contains all of the neural networks used in our examples. The file format for the neural network is described [here](https://github.com/sisl/NNet/).
 
-### ReluVal-for-comparison/
-This directory contains a slightly modified version of [ReluVal](https://github.com/tcwangshiqi-columbia/ReluVal). Documentation on its contents can be found [here](https://github.com/tcwangshiqi-columbia/ReluVal).
+# Building
+In our paper, we evaluated four different versions of our tool: Full NeuroDiff, NeuroDiff with only convex approximations, NeuroDiff with only intermediate symbolic variables, and ReluDiff+. The version to build is specified using different make rules, which we document here. The following commands assume the user in the DiffNN-Code/ directory.
 
-Our modified version makes a small change to the forward pass so that it correctly handles the subtracted networks. Specifically, we change the forward pass so that the final _two_ layers of the input neural network perform only an affine transformation (as opposed to affine transform + ReLU). The original ReluVal only does this for the final layer.
+## Building Full NeuroDiff
+```
 
-In addition, we add our new input properties to ReluVal. The method for doing this is described in the original ReluVal documentation.
+```
 
-### eran/
-This directory contains the original source code of [ERAN](https://github.com/eth-sri/eran). The documentation can be found [here](https://github.com/eth-sri/eran). It also contains some additional files for performing our experiments. We document them below.
-#### eran/tf\_verify/diff\_analysis.py
-This is the entry point for running our experiments.
-#### eran/tf\_verify/diff\_analysis\_artifact.py
-This is the entry point for running our artifact experiments.
-
-#### eran/NNet/nnet
-This directory contains all of the subtracted networks that we used in our experiments. They are in the format used by ERAN.
 
 # Tool Usage Documentation
 Here we document how to use the various scripts and tools for each of the techniques we evaluated in our paper.
-## ReluDiff
-### DiffNN-code/delta\_network\_test
-This is ReluDiff's main executable. To get a help menu, run *./delta\_network\_test* without any parameters. We also provide the documentation below.
+## DiffNN-code/delta\_network\_test
+This is NeuroDiff/ReluDiff's main executable. To get a help menu, run *./delta\_network\_test* without any parameters. We also provide the documentation below.
 ```console
 ./delta_network_test PROPERTY NNET1 NNET2 EPSILON [OPTIONS]
 ```
 - PROPERTY: an integer value indicating which pre-defined property to verify. The value can be:
 	- 1-5, 7-15, 16, 26: These values correspond to the ACAS Xu properties orginally defined by Katz et al. in their [Reluplex](https://arxiv.org/pdf/1702.01135.pdf) and Wang et al. in their [ReluVal](https://arxiv.org/pdf/1804.10829.pdf) paper. See the appendix of [this](https://arxiv.org/pdf/1804.10829.pdf) paper for desciptions. The integers 1-5 and 7-15 directly correspond to properties 1-5 and 7-15 respectively. Property 6 is broken into two parts, corresponding to 16 and 26.
-	- 400-499: These values are used for the MNIST properties. Each of the 100 values corresponds to a single input image, and then a perturbation is applied to the image to generate the input property. These properties require that either '-p' or '-t' is specified as an option. If '-p' is specified (see below), a global perturbation will be applied as described in the evaluation of our paper. If '-t' is specified, then three random pixels will be perturbed (see below). 
+	- 400-499: These values are used for the MNIST properties. Each of the 100 values corresponds to a single input image, and then a perturbation is applied to the image to generate the input property. These properties require that either '-p' or '-t' is specified as an option. If '-p' is specified (see below), a global perturbation will be applied as described in the evaluation of our paper. If '-x' is specified, then the given number random pixels will be perturbed (see below). 
 	- 1000-1099: These values are used for the HAR properties. Each of the 100 values corresponds to a single test input, and then a perturbation is applied to the input to generate the input property. These properties require that '-p' is specified as an option.
 - NNET1, NNET2: file paths to \*.nnet files to compare.
 - EPSILON: A floating point value. ReluDiff will attempt to verify that NNET1 and NNET2 cannot differ by more than EPSILON over the input region defined by PROPERTY
 - OPTIONS<br/>
 	-p PERTURB : specifies the strength of the global perturbation to apply to the MNIST and HAR properties. For MNIST this should be an integer between 0-254. For HAR, this should be a float between -1 to 1.<br/>
-	-t : Performs three pixel perturbation on the MNIST images instead of global perturbation<br/>
+	-x NUM_PIX : Performs pixel perturbation on the MNIST images instead of global perturbation. NUM_PIX is the number of pixels to randomly select for perturbation.<br/>
+	-e NUM_EXTRA_VARS : the max number of extra variables that can be used during a forward pass. Setting NUM_EXTRA_VARS=0 will use the heuristic described in the paper (this is probably what you want).
 	-m DEPTH : (not used for our paper) forces the analysis to 2^DEPTH splits and then prints region verified at each depth<br/>
 
-### DiffNN-Code/python/round\_nnet.py
+## DiffNN-Code/python/round\_nnet.py
 This script takes in a neural net file in the .nnet format, truncates its weights to 16 bits, and then outputs the result.
 ```console
 python3 round_nnet.py NNET OUTPUT-PATH
@@ -108,18 +88,7 @@ python3 round_nnet.py NNET OUTPUT-PATH
 - NNET: the file path to the input neural network
 - OUTPUT-PATH: the location to write the truncated neural net to
 
-### DiffNN-Code/python/subtract\_nnets.py
-This script takes in two neural net files in .nnet format and outputs a combined neural net in .nnet format that subtracts the two. Note that the final two layers are assumed to be affine transforms *only* (no ReLU). Our modified ReluVal handles these networks correctly, however the original ReluVal would not handle this correctly.
-```console
-python3 subtract_nnets.py NNET1 NNET2 OUTPUT-PATH
-```
-- NNET1, NNET2: the two input neural networks to subtract
-- OUTPUT-PATH: the output path to write the subtracted neural net to
-
-### DiffNN-Code/scripts/make\_all\_compressed\_nnets.sh
-This script will produce all of the truncated and subtracted networks used in our experiments. It takes every network in *DiffNN-Code/nnet*, outputs the truncated network to *DiffNN-Code/compressed\_nnets*, and outputs the subtracted network to *../ReluVal-for-comparison/subbed\_nnets*.
-
-### DiffNN-Code/scripts/run\_&#10033;\_exec-time\_experiments.sh
+## DiffNN-Code/scripts/run\_&#10033;\_exec-time\_experiments.sh
 These four scripts correspond to the four main experiments run in our paper, namey ACAS Xu, MNIST global perturbation, MNIST 3 pixel perturbation, and HAR. They will run ReluDiff on all of the properties for the appropriate experiment and write the results to a log file beginning with *exec-time\_out*. The log file will contain a block of text for each property. The block will start with the command that was run, followed by the command's output. For example, after running ACAS property 1 on ACAS network 1\_1, the following will be written to the log file:
 ```console
 ./delta_network_test 1 nnet/ACASXU_run2a_1_1_batch_2000.nnet compressed_nnets/ACASXU_run2a_1_1_batch_2000_16bit.nnet 0.05
