@@ -1,0 +1,1100 @@
+./delta_network_test 400 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 134.4560]
+Output delta interval: [-0.2211, 0.2215]
+
+No adv!
+time: 3.689166 
+
+
+numSplits: 0
+./delta_network_test 401 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 128.9736]
+Output delta interval: [-0.1934, 0.1928]
+
+No adv!
+time: 3.622620 
+
+
+numSplits: 0
+./delta_network_test 402 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 150.2974]
+Output delta interval: [-0.2372, 0.2346]
+
+No adv!
+time: 3.790602 
+
+
+numSplits: 0
+./delta_network_test 403 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 99.6187]
+Output delta interval: [-0.1643, 0.1603]
+
+No adv!
+time: 3.632672 
+
+
+numSplits: 0
+./delta_network_test 404 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 121.2141]
+Output delta interval: [-0.2409, 0.2376]
+
+No adv!
+time: 3.940694 
+
+
+numSplits: 0
+./delta_network_test 405 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 134.9681]
+Output delta interval: [-0.2096, 0.2062]
+
+No adv!
+time: 3.886602 
+
+
+numSplits: 0
+./delta_network_test 406 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 122.8810]
+Output delta interval: [-0.2254, 0.2228]
+
+No adv!
+time: 3.815944 
+
+
+numSplits: 0
+./delta_network_test 407 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 131.6893]
+Output delta interval: [-0.2423, 0.2408]
+
+No adv!
+time: 3.754486 
+
+
+numSplits: 0
+./delta_network_test 408 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 114.7740]
+Output delta interval: [-0.1946, 0.1951]
+
+No adv!
+time: 3.707178 
+
+
+numSplits: 0
+./delta_network_test 409 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 121.4756]
+Output delta interval: [-0.2054, 0.2021]
+
+No adv!
+time: 3.745492 
+
+
+numSplits: 0
+./delta_network_test 410 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 103.7037]
+Output delta interval: [-0.1825, 0.1803]
+
+No adv!
+time: 3.771419 
+
+
+numSplits: 0
+./delta_network_test 411 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 128.6246]
+Output delta interval: [-0.2727, 0.2739]
+
+No adv!
+time: 3.919065 
+
+
+numSplits: 0
+./delta_network_test 412 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 128.0431]
+Output delta interval: [-0.1960, 0.1934]
+
+No adv!
+time: 3.769792 
+
+
+numSplits: 0
+./delta_network_test 413 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 114.2443]
+Output delta interval: [-0.2062, 0.2037]
+
+No adv!
+time: 3.821629 
+
+
+numSplits: 0
+./delta_network_test 414 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 121.1035]
+Output delta interval: [-0.1701, 0.1691]
+
+No adv!
+time: 3.774484 
+
+
+numSplits: 0
+./delta_network_test 415 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 151.2129]
+Output delta interval: [-0.2906, 0.2912]
+
+No adv!
+time: 4.010943 
+
+
+numSplits: 0
+./delta_network_test 416 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 143.0875]
+Output delta interval: [-0.2422, 0.2403]
+
+No adv!
+time: 3.799322 
+
+
+numSplits: 0
+./delta_network_test 417 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 128.0262]
+Output delta interval: [-0.1891, 0.1898]
+
+No adv!
+time: 3.734530 
+
+
+numSplits: 0
+./delta_network_test 418 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 120.8479]
+Output delta interval: [-0.2233, 0.2240]
+
+No adv!
+time: 3.688905 
+
+
+numSplits: 0
+./delta_network_test 419 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 146.7258]
+Output delta interval: [-0.2697, 0.2667]
+
+No adv!
+time: 3.837380 
+
+
+numSplits: 0
+./delta_network_test 420 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 115.8507]
+Output delta interval: [-0.2180, 0.2158]
+
+No adv!
+time: 3.718195 
+
+
+numSplits: 0
+./delta_network_test 421 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 129.5090]
+Output delta interval: [-0.2561, 0.2562]
+
+No adv!
+time: 3.854917 
+
+
+numSplits: 0
+./delta_network_test 422 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 103.2436]
+Output delta interval: [-0.2088, 0.2102]
+
+No adv!
+time: 3.808351 
+
+
+numSplits: 0
+./delta_network_test 423 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 153.7234]
+Output delta interval: [-0.2327, 0.2308]
+
+No adv!
+time: 3.788957 
+
+
+numSplits: 0
+./delta_network_test 424 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 161.2115]
+Output delta interval: [-0.3038, 0.3019]
+
+No adv!
+time: 3.983049 
+
+
+numSplits: 0
+./delta_network_test 425 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 98.7442]
+Output delta interval: [-0.1584, 0.1573]
+
+No adv!
+time: 3.706572 
+
+
+numSplits: 0
+./delta_network_test 426 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 137.4695]
+Output delta interval: [-0.2272, 0.2281]
+
+No adv!
+time: 3.951483 
+
+
+numSplits: 0
+./delta_network_test 427 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 127.4246]
+Output delta interval: [-0.2216, 0.2159]
+
+No adv!
+time: 3.809435 
+
+
+numSplits: 0
+./delta_network_test 428 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 114.8587]
+Output delta interval: [-0.2071, 0.2024]
+
+No adv!
+time: 3.791324 
+
+
+numSplits: 0
+./delta_network_test 429 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 140.1554]
+Output delta interval: [-0.2243, 0.2247]
+
+No adv!
+time: 3.945112 
+
+
+numSplits: 0
+./delta_network_test 430 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 138.4987]
+Output delta interval: [-0.2023, 0.2022]
+
+No adv!
+time: 3.751542 
+
+
+numSplits: 0
+./delta_network_test 431 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 148.7777]
+Output delta interval: [-0.2478, 0.2464]
+
+No adv!
+time: 4.049720 
+
+
+numSplits: 0
+./delta_network_test 432 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 127.7786]
+Output delta interval: [-0.1911, 0.1927]
+
+No adv!
+time: 3.768267 
+
+
+numSplits: 0
+./delta_network_test 433 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 115.3895]
+Output delta interval: [-0.2069, 0.2033]
+
+No adv!
+time: 3.796959 
+
+
+numSplits: 0
+./delta_network_test 434 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 113.3781]
+Output delta interval: [-0.1576, 0.1562]
+
+No adv!
+time: 3.666818 
+
+
+numSplits: 0
+./delta_network_test 435 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 125.5450]
+Output delta interval: [-0.2114, 0.2124]
+
+No adv!
+time: 3.687347 
+
+
+numSplits: 0
+./delta_network_test 436 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 123.8838]
+Output delta interval: [-0.2024, 0.2021]
+
+No adv!
+time: 3.756540 
+
+
+numSplits: 0
+./delta_network_test 437 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 133.3392]
+Output delta interval: [-0.2173, 0.2161]
+
+No adv!
+time: 3.849233 
+
+
+numSplits: 0
+./delta_network_test 438 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 134.1063]
+Output delta interval: [-0.2197, 0.2204]
+
+No adv!
+time: 3.812462 
+
+
+numSplits: 0
+./delta_network_test 439 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 135.5992]
+Output delta interval: [-0.2120, 0.2108]
+
+No adv!
+time: 3.852188 
+
+
+numSplits: 0
+./delta_network_test 440 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 172.8399]
+Output delta interval: [-0.2796, 0.2775]
+
+No adv!
+time: 4.167132 
+
+
+numSplits: 0
+./delta_network_test 441 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 130.8406]
+Output delta interval: [-0.2253, 0.2264]
+
+No adv!
+time: 3.864973 
+
+
+numSplits: 0
+./delta_network_test 442 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 124.4903]
+Output delta interval: [-0.2202, 0.2172]
+
+No adv!
+time: 3.942253 
+
+
+numSplits: 0
+./delta_network_test 443 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 147.2651]
+Output delta interval: [-0.2660, 0.2666]
+
+No adv!
+time: 4.002844 
+
+
+numSplits: 0
+./delta_network_test 444 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 125.1943]
+Output delta interval: [-0.2004, 0.2000]
+
+No adv!
+time: 3.801386 
+
+
+numSplits: 0
+./delta_network_test 445 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 160.4897]
+Output delta interval: [-0.2868, 0.2847]
+
+No adv!
+time: 3.987924 
+
+
+numSplits: 0
+./delta_network_test 446 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 132.9096]
+Output delta interval: [-0.2244, 0.2242]
+
+No adv!
+time: 3.935489 
+
+
+numSplits: 0
+./delta_network_test 447 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 159.9496]
+Output delta interval: [-0.2868, 0.2853]
+
+No adv!
+time: 4.013584 
+
+
+numSplits: 0
+./delta_network_test 448 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 110.0056]
+Output delta interval: [-0.1875, 0.1817]
+
+No adv!
+time: 3.748547 
+
+
+numSplits: 0
+./delta_network_test 449 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 113.3261]
+Output delta interval: [-0.2162, 0.2120]
+
+No adv!
+time: 3.807623 
+
+
+numSplits: 0
+./delta_network_test 450 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 117.6799]
+Output delta interval: [-0.2280, 0.2294]
+
+No adv!
+time: 3.896275 
+
+
+numSplits: 0
+./delta_network_test 451 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 127.7571]
+Output delta interval: [-0.1969, 0.1957]
+
+No adv!
+time: 3.775216 
+
+
+numSplits: 0
+./delta_network_test 452 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 144.3462]
+Output delta interval: [-0.2693, 0.2693]
+
+No adv!
+time: 3.876748 
+
+
+numSplits: 0
+./delta_network_test 453 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 169.9724]
+Output delta interval: [-0.3215, 0.3204]
+
+No adv!
+time: 3.914965 
+
+
+numSplits: 0
+./delta_network_test 454 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 98.4954]
+Output delta interval: [-0.1921, 0.1931]
+
+No adv!
+time: 3.708333 
+
+
+numSplits: 0
+./delta_network_test 455 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 122.9519]
+Output delta interval: [-0.2385, 0.2359]
+
+No adv!
+time: 3.781134 
+
+
+numSplits: 0
+./delta_network_test 456 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 134.0511]
+Output delta interval: [-0.2367, 0.2323]
+
+No adv!
+time: 3.777522 
+
+
+numSplits: 0
+./delta_network_test 457 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 145.2024]
+Output delta interval: [-0.2337, 0.2305]
+
+No adv!
+time: 3.836536 
+
+
+numSplits: 0
+./delta_network_test 458 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 145.0014]
+Output delta interval: [-0.2493, 0.2474]
+
+No adv!
+time: 3.892845 
+
+
+numSplits: 0
+./delta_network_test 459 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 142.7448]
+Output delta interval: [-0.2569, 0.2576]
+
+No adv!
+time: 3.940173 
+
+
+numSplits: 0
+./delta_network_test 460 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 110.6405]
+Output delta interval: [-0.1660, 0.1670]
+
+No adv!
+time: 3.740864 
+
+
+numSplits: 0
+./delta_network_test 461 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 106.5694]
+Output delta interval: [-0.1893, 0.1893]
+
+No adv!
+time: 3.788643 
+
+
+numSplits: 0
+./delta_network_test 462 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 182.9546]
+Output delta interval: [-0.3252, 0.3225]
+
+No adv!
+time: 4.082721 
+
+
+numSplits: 0
+./delta_network_test 463 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 146.5216]
+Output delta interval: [-0.2376, 0.2365]
+
+No adv!
+time: 3.962212 
+
+
+numSplits: 0
+./delta_network_test 464 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 137.5125]
+Output delta interval: [-0.2188, 0.2192]
+
+No adv!
+time: 3.811263 
+
+
+numSplits: 0
+./delta_network_test 465 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 146.1171]
+Output delta interval: [-0.2887, 0.2886]
+
+No adv!
+time: 4.133680 
+
+
+numSplits: 0
+./delta_network_test 466 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 117.7608]
+Output delta interval: [-0.2432, 0.2453]
+
+No adv!
+time: 3.852475 
+
+
+numSplits: 0
+./delta_network_test 467 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 127.8380]
+Output delta interval: [-0.2331, 0.2290]
+
+No adv!
+time: 3.786960 
+
+
+numSplits: 0
+./delta_network_test 468 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 129.5968]
+Output delta interval: [-0.1594, 0.1629]
+
+No adv!
+time: 3.681566 
+
+
+numSplits: 0
+./delta_network_test 469 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 111.6341]
+Output delta interval: [-0.2041, 0.2035]
+
+No adv!
+time: 3.738962 
+
+
+numSplits: 0
+./delta_network_test 470 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 122.1031]
+Output delta interval: [-0.1943, 0.1947]
+
+No adv!
+time: 3.785011 
+
+
+numSplits: 0
+./delta_network_test 471 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 110.3311]
+Output delta interval: [-0.1632, 0.1600]
+
+No adv!
+time: 3.671427 
+
+
+numSplits: 0
+./delta_network_test 472 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 130.6699]
+Output delta interval: [-0.2262, 0.2274]
+
+No adv!
+time: 3.776433 
+
+
+numSplits: 0
+./delta_network_test 473 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 108.1374]
+Output delta interval: [-0.1677, 0.1660]
+
+No adv!
+time: 3.716213 
+
+
+numSplits: 0
+./delta_network_test 474 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 133.2530]
+Output delta interval: [-0.2087, 0.2073]
+
+No adv!
+time: 3.813881 
+
+
+numSplits: 0
+./delta_network_test 475 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 126.6730]
+Output delta interval: [-0.1917, 0.1907]
+
+No adv!
+time: 3.924920 
+
+
+numSplits: 0
+./delta_network_test 476 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 141.8681]
+Output delta interval: [-0.2328, 0.2325]
+
+No adv!
+time: 3.855561 
+
+
+numSplits: 0
+./delta_network_test 477 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 143.4052]
+Output delta interval: [-0.2657, 0.2652]
+
+No adv!
+time: 4.003131 
+
+
+numSplits: 0
+./delta_network_test 478 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 139.2456]
+Output delta interval: [-0.2473, 0.2438]
+
+No adv!
+time: 3.943281 
+
+
+numSplits: 0
+./delta_network_test 479 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 103.9417]
+Output delta interval: [-0.1671, 0.1674]
+
+No adv!
+time: 3.755371 
+
+
+numSplits: 0
+./delta_network_test 480 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 123.8304]
+Output delta interval: [-0.2146, 0.2143]
+
+No adv!
+time: 3.893362 
+
+
+numSplits: 0
+./delta_network_test 481 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 112.8366]
+Output delta interval: [-0.2331, 0.2348]
+
+No adv!
+time: 3.953380 
+
+
+numSplits: 0
+./delta_network_test 482 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 116.5739]
+Output delta interval: [-0.1610, 0.1614]
+
+No adv!
+time: 3.695262 
+
+
+numSplits: 0
+./delta_network_test 483 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 131.4475]
+Output delta interval: [-0.2059, 0.2063]
+
+No adv!
+time: 4.034530 
+
+
+numSplits: 0
+./delta_network_test 484 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 130.6201]
+Output delta interval: [-0.2478, 0.2470]
+
+No adv!
+time: 3.977736 
+
+
+numSplits: 0
+./delta_network_test 485 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 105.5162]
+Output delta interval: [-0.1672, 0.1625]
+
+No adv!
+time: 3.738961 
+
+
+numSplits: 0
+./delta_network_test 486 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 125.7200]
+Output delta interval: [-0.1871, 0.1848]
+
+No adv!
+time: 3.750658 
+
+
+numSplits: 0
+./delta_network_test 487 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 135.8037]
+Output delta interval: [-0.2416, 0.2433]
+
+No adv!
+time: 3.948662 
+
+
+numSplits: 0
+./delta_network_test 488 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 114.8955]
+Output delta interval: [-0.2022, 0.2044]
+
+No adv!
+time: 4.249849 
+
+
+numSplits: 0
+./delta_network_test 489 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 128.4826]
+Output delta interval: [-0.2032, 0.2012]
+
+No adv!
+time: 4.254010 
+
+
+numSplits: 0
+./delta_network_test 490 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 144.2242]
+Output delta interval: [-0.2174, 0.2186]
+
+No adv!
+time: 4.109678 
+
+
+numSplits: 0
+./delta_network_test 491 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 118.4566]
+Output delta interval: [-0.2093, 0.2108]
+
+No adv!
+time: 4.261595 
+
+
+numSplits: 0
+./delta_network_test 492 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 169.8863]
+Output delta interval: [-0.3010, 0.2997]
+
+No adv!
+time: 4.454103 
+
+
+numSplits: 0
+./delta_network_test 493 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 131.1654]
+Output delta interval: [-0.2005, 0.1999]
+
+No adv!
+time: 4.021419 
+
+
+numSplits: 0
+./delta_network_test 494 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 115.8913]
+Output delta interval: [-0.1882, 0.1887]
+
+No adv!
+time: 4.120145 
+
+
+numSplits: 0
+./delta_network_test 495 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 111.4945]
+Output delta interval: [-0.2062, 0.2062]
+
+No adv!
+time: 4.113352 
+
+
+numSplits: 0
+./delta_network_test 496 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 148.7545]
+Output delta interval: [-0.2481, 0.2468]
+
+No adv!
+time: 4.495107 
+
+
+numSplits: 0
+./delta_network_test 497 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 133.2982]
+Output delta interval: [-0.2138, 0.2150]
+
+No adv!
+time: 4.039582 
+
+
+numSplits: 0
+./delta_network_test 498 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 116.0521]
+Output delta interval: [-0.2115, 0.2141]
+
+No adv!
+time: 4.285646 
+
+
+numSplits: 0
+./delta_network_test 499 mnist_relu_4_1024.nnet mnist_relu_4_1024_16bit.nnet 0 -p 3 -e 1000
+Total difference: 14.6700
+Average difference: 0.0000
+Output interval: [0.0000, 132.3063]
+Output delta interval: [-0.2040, 0.2027]
+
+No adv!
+time: 4.196084 
+
+
+numSplits: 0

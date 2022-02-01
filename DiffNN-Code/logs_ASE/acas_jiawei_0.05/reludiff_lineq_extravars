@@ -1,0 +1,1430 @@
+./delta_network_test 1 nnet/ACASXU_run2a_1_1_batch_2000.nnet compressed_nnets/ACASXU_run2a_1_1_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-453.071869 -542.834961 -577.770264 -604.296448 -602.033997 ]
+[453.877502 543.778564 578.650878 604.471191 602.964416 ]
+
+No adv!
+time: 0.103945 
+
+
+numSplits: 279
+./delta_network_test 1 nnet/ACASXU_run2a_1_2_batch_2000.nnet compressed_nnets/ACASXU_run2a_1_2_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-387.375824 -443.877350 -449.450196 -534.658509 -526.131531 ]
+[386.874816 443.365020 449.436035 533.694030 525.571960 ]
+
+No adv!
+time: 0.171483 
+
+
+numSplits: 546
+./delta_network_test 1 nnet/ACASXU_run2a_1_3_batch_2000.nnet compressed_nnets/ACASXU_run2a_1_3_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-1322.995728 -1328.915040 -1533.518311 -1433.858155 -1579.526124 ]
+[1313.460327 1326.668334 1522.971313 1435.088378 1582.183715 ]
+
+No adv!
+time: 1.168496 
+
+
+numSplits: 5394
+./delta_network_test 1 nnet/ACASXU_run2a_1_4_batch_2000.nnet compressed_nnets/ACASXU_run2a_1_4_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-183.968949 -194.387116 -196.094651 -231.308594 -244.760865 ]
+[183.827529 193.421371 195.715713 230.445663 244.855880 ]
+
+No adv!
+time: 1.576293 
+
+
+numSplits: 6492
+./delta_network_test 1 nnet/ACASXU_run2a_1_5_batch_2000.nnet compressed_nnets/ACASXU_run2a_1_5_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-130.878586 -140.403733 -139.810013 -193.725266 -176.734665 ]
+[130.904647 140.348098 139.677215 193.526077 176.528533 ]
+
+No adv!
+time: 0.259299 
+
+
+numSplits: 936
+./delta_network_test 1 nnet/ACASXU_run2a_1_6_batch_2000.nnet compressed_nnets/ACASXU_run2a_1_6_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-32.279313 -55.560879 -45.824601 -67.942376 -53.411267 ]
+[32.257736 55.590126 45.870452 68.033737 53.380851 ]
+
+No adv!
+time: 0.183236 
+
+
+numSplits: 600
+./delta_network_test 1 nnet/ACASXU_run2a_1_7_batch_2000.nnet compressed_nnets/ACASXU_run2a_1_7_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-24.678683 -54.550824 -54.515618 -55.295437 -51.124672 ]
+[24.705123 54.622093 54.431938 55.503364 51.233203 ]
+
+No adv!
+time: 0.089539 
+
+
+numSplits: 224
+./delta_network_test 1 nnet/ACASXU_run2a_1_8_batch_2000.nnet compressed_nnets/ACASXU_run2a_1_8_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-19.140206 -61.935494 -61.771596 -53.597939 -59.218415 ]
+[19.188867 61.905925 61.901882 53.648067 59.417675 ]
+
+No adv!
+time: 0.104332 
+
+
+numSplits: 280
+./delta_network_test 1 nnet/ACASXU_run2a_1_9_batch_2000.nnet compressed_nnets/ACASXU_run2a_1_9_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-9.259372 -39.452378 -26.473258 -29.241566 -20.518219 ]
+[9.295066 39.457733 26.513065 29.251405 20.544279 ]
+
+No adv!
+time: 0.069502 
+
+
+numSplits: 114
+./delta_network_test 1 nnet/ACASXU_run2a_2_1_batch_2000.nnet compressed_nnets/ACASXU_run2a_2_1_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-421.200043 -348.870820 -334.639985 -444.675690 -449.599091 ]
+[421.225341 349.336730 335.266296 445.018676 449.819061 ]
+
+No adv!
+time: 0.810723 
+
+
+numSplits: 3829
+./delta_network_test 1 nnet/ACASXU_run2a_2_2_batch_2000.nnet compressed_nnets/ACASXU_run2a_2_2_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-1238.714112 -1137.285889 -1151.363892 -1288.398682 -1251.199585 ]
+[1237.955200 1135.703735 1150.127319 1286.579956 1249.846923 ]
+
+No adv!
+time: 2.739075 
+
+
+numSplits: 13765
+./delta_network_test 1 nnet/ACASXU_run2a_2_3_batch_2000.nnet compressed_nnets/ACASXU_run2a_2_3_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-422.876160 -321.424775 -331.303406 -378.431733 -396.124268 ]
+[422.880523 320.709564 330.824218 378.013854 395.557983 ]
+
+No adv!
+time: 1.158788 
+
+
+numSplits: 5573
+./delta_network_test 1 nnet/ACASXU_run2a_2_4_batch_2000.nnet compressed_nnets/ACASXU_run2a_2_4_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-460.200959 -287.614411 -215.515793 -320.348603 -305.747254 ]
+[461.100708 286.881622 215.285858 319.941314 306.107971 ]
+
+No adv!
+time: 0.714425 
+
+
+numSplits: 2810
+./delta_network_test 1 nnet/ACASXU_run2a_2_5_batch_2000.nnet compressed_nnets/ACASXU_run2a_2_5_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-660.183167 -323.125245 -283.493714 -365.855500 -304.922181 ]
+[659.412475 322.984130 283.740844 365.939819 305.188293 ]
+
+No adv!
+time: 8.721093 
+
+
+numSplits: 32067
+./delta_network_test 1 nnet/ACASXU_run2a_2_6_batch_2000.nnet compressed_nnets/ACASXU_run2a_2_6_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-2383.649415 -407.392457 -479.068573 -559.493226 -518.892334 ]
+[2388.353515 407.423889 486.644439 561.771484 528.469177 ]
+
+No adv!
+time: 3.228981 
+
+
+numSplits: 15099
+./delta_network_test 1 nnet/ACASXU_run2a_2_7_batch_2000.nnet compressed_nnets/ACASXU_run2a_2_7_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-5474.146485 -504.244019 -465.944489 -490.614533 -473.761628 ]
+[5436.987304 500.820953 465.415802 491.858642 474.236633 ]
+
+No adv!
+time: 18.816398 
+
+
+numSplits: 71531
+./delta_network_test 1 nnet/ACASXU_run2a_2_8_batch_2000.nnet compressed_nnets/ACASXU_run2a_2_8_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-7712.499512 -779.171143 -1512.718750 -1554.476319 -1367.119141 ]
+[7699.120117 780.411071 1515.995971 1556.745483 1365.439819 ]
+
+No adv!
+time: 13.579787 
+
+
+numSplits: 60474
+./delta_network_test 1 nnet/ACASXU_run2a_2_9_batch_2000.nnet compressed_nnets/ACASXU_run2a_2_9_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-6915.455567 -541.014039 -515.480591 -746.301026 -500.933716 ]
+[6869.790039 507.686614 467.765472 715.022277 459.328796 ]
+
+No adv!
+time: 19.498929 
+
+
+numSplits: 92251
+./delta_network_test 1 nnet/ACASXU_run2a_3_1_batch_2000.nnet compressed_nnets/ACASXU_run2a_3_1_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-812.058045 -592.864319 -578.060242 -671.400940 -550.357178 ]
+[812.307861 592.939514 578.301818 671.414855 550.289733 ]
+
+No adv!
+time: 1.129737 
+
+
+numSplits: 5480
+./delta_network_test 1 nnet/ACASXU_run2a_3_2_batch_2000.nnet compressed_nnets/ACASXU_run2a_3_2_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-635.193360 -566.706055 -512.998719 -637.086304 -631.196656 ]
+[636.385681 567.756713 513.952697 638.380554 632.105957 ]
+
+No adv!
+time: 1.433093 
+
+
+numSplits: 6644
+./delta_network_test 1 nnet/ACASXU_run2a_3_3_batch_2000.nnet compressed_nnets/ACASXU_run2a_3_3_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-482.220978 -376.482392 -457.947846 -407.373292 -399.583344 ]
+[482.171356 375.581237 456.958953 407.056152 399.101470 ]
+
+No adv!
+time: 2.609502 
+
+
+numSplits: 10793
+./delta_network_test 1 nnet/ACASXU_run2a_3_4_batch_2000.nnet compressed_nnets/ACASXU_run2a_3_4_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-449.360108 -244.806473 -269.283204 -322.663941 -235.688035 ]
+[449.395538 244.951141 269.409912 323.020538 235.756820 ]
+
+No adv!
+time: 1.098121 
+
+
+numSplits: 4047
+./delta_network_test 1 nnet/ACASXU_run2a_3_5_batch_2000.nnet compressed_nnets/ACASXU_run2a_3_5_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-837.276429 -186.148743 -251.642746 -195.671494 -207.818711 ]
+[831.072814 184.276428 252.111846 193.687362 205.132751 ]
+
+No adv!
+time: 3.022679 
+
+
+numSplits: 13473
+./delta_network_test 1 nnet/ACASXU_run2a_3_6_batch_2000.nnet compressed_nnets/ACASXU_run2a_3_6_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-4057.746338 -636.496094 -785.835511 -789.853638 -663.806153 ]
+[4064.360351 635.963562 784.753845 789.612243 663.872619 ]
+
+No adv!
+time: 57.641155 
+
+
+numSplits: 238409
+./delta_network_test 1 nnet/ACASXU_run2a_3_7_batch_2000.nnet compressed_nnets/ACASXU_run2a_3_7_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-5601.124512 -533.113953 -580.144593 -525.259461 -541.807313 ]
+[5597.158203 533.660644 579.336242 524.838500 541.577697 ]
+
+No adv!
+time: 19.454776 
+
+
+numSplits: 74467
+./delta_network_test 1 nnet/ACASXU_run2a_3_8_batch_2000.nnet compressed_nnets/ACASXU_run2a_3_8_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-5710.996583 -910.199280 -678.034791 -932.362610 -1514.293213 ]
+[6825.171875 692.595031 790.823547 683.996459 1164.888305 ]
+
+No adv!
+time: 13.400595 
+
+
+numSplits: 54679
+./delta_network_test 1 nnet/ACASXU_run2a_3_9_batch_2000.nnet compressed_nnets/ACASXU_run2a_3_9_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-4291.150879 -493.387574 -654.918396 -461.743317 -443.968750 ]
+[4286.919433 493.765045 656.314880 461.774047 443.523590 ]
+
+No adv!
+time: 28.339160 
+
+
+numSplits: 119444
+./delta_network_test 1 nnet/ACASXU_run2a_4_1_batch_2000.nnet compressed_nnets/ACASXU_run2a_4_1_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-831.279786 -821.223206 -923.857728 -842.524903 -1140.888062 ]
+[831.463317 821.754272 925.114135 842.962768 1141.733642 ]
+
+No adv!
+time: 35.202842 
+
+
+numSplits: 160204
+./delta_network_test 1 nnet/ACASXU_run2a_4_2_batch_2000.nnet compressed_nnets/ACASXU_run2a_4_2_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-688.487732 -664.685486 -729.286866 -694.219239 -802.808533 ]
+[688.532592 665.418762 730.058044 694.889465 803.350280 ]
+
+No adv!
+time: 3.740391 
+
+
+numSplits: 16219
+./delta_network_test 1 nnet/ACASXU_run2a_4_3_batch_2000.nnet compressed_nnets/ACASXU_run2a_4_3_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-796.684876 -599.172852 -542.657959 -662.718873 -664.847962 ]
+[796.585937 598.711059 542.602355 661.800415 665.283386 ]
+
+No adv!
+time: 1.505011 
+
+
+numSplits: 7453
+./delta_network_test 1 nnet/ACASXU_run2a_4_4_batch_2000.nnet compressed_nnets/ACASXU_run2a_4_4_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-472.465516 -212.226716 -227.983887 -254.810654 -281.329712 ]
+[473.544494 212.338867 228.032043 254.733505 281.645599 ]
+
+No adv!
+time: 0.794163 
+
+
+numSplits: 2900
+./delta_network_test 1 nnet/ACASXU_run2a_4_5_batch_2000.nnet compressed_nnets/ACASXU_run2a_4_5_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-1243.316407 -465.819947 -437.277466 -549.208252 -534.047608 ]
+[1246.734130 465.172027 437.115631 548.695861 534.681823 ]
+
+No adv!
+time: 6.992060 
+
+
+numSplits: 35192
+./delta_network_test 1 nnet/ACASXU_run2a_4_6_batch_2000.nnet compressed_nnets/ACASXU_run2a_4_6_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-2298.402588 -343.175324 -306.356873 -338.371308 -337.037201 ]
+[2298.799560 343.326416 306.365539 338.750793 337.063629 ]
+
+No adv!
+time: 47.371471 
+
+
+numSplits: 194123
+./delta_network_test 1 nnet/ACASXU_run2a_4_7_batch_2000.nnet compressed_nnets/ACASXU_run2a_4_7_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-4374.311524 -593.149842 -774.416382 -590.455872 -664.154053 ]
+[4385.371582 592.451049 772.860656 589.389282 662.400390 ]
+
+No adv!
+time: 56.485458 
+
+
+numSplits: 250022
+./delta_network_test 1 nnet/ACASXU_run2a_4_8_batch_2000.nnet compressed_nnets/ACASXU_run2a_4_8_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-3944.741700 -438.281983 -367.320801 -467.291260 -454.549744 ]
+[3941.763916 439.399749 366.848571 467.204101 454.632019 ]
+
+No adv!
+time: 34.085723 
+
+
+numSplits: 142695
+./delta_network_test 1 nnet/ACASXU_run2a_4_9_batch_2000.nnet compressed_nnets/ACASXU_run2a_4_9_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-8403.801758 -1386.078614 -1040.582520 -1191.734131 -1164.099732 ]
+[8351.804687 1392.428344 1103.638183 1156.300537 1222.095092 ]
+
+No adv!
+time: 67.703659 
+
+
+numSplits: 290309
+./delta_network_test 1 nnet/ACASXU_run2a_5_1_batch_2000.nnet compressed_nnets/ACASXU_run2a_5_1_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-477.874054 -456.351899 -455.755921 -571.737061 -569.401063 ]
+[479.034362 457.773468 457.166717 573.327941 569.597106 ]
+
+No adv!
+time: 0.781207 
+
+
+numSplits: 3825
+./delta_network_test 1 nnet/ACASXU_run2a_5_2_batch_2000.nnet compressed_nnets/ACASXU_run2a_5_2_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-323.362855 -353.148743 -327.782502 -366.381470 -304.190644 ]
+[323.442535 353.158599 327.809722 366.350799 304.199645 ]
+
+No adv!
+time: 1.125140 
+
+
+numSplits: 4869
+./delta_network_test 1 nnet/ACASXU_run2a_5_3_batch_2000.nnet compressed_nnets/ACASXU_run2a_5_3_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-832.792786 -506.918335 -479.857728 -538.767518 -465.414856 ]
+[833.739929 507.455017 480.195983 538.950805 465.653320 ]
+
+No adv!
+time: 0.384449 
+
+
+numSplits: 1567
+./delta_network_test 1 nnet/ACASXU_run2a_5_4_batch_2000.nnet compressed_nnets/ACASXU_run2a_5_4_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-604.011780 -266.797242 -266.033753 -283.847901 -292.728943 ]
+[604.523315 266.483551 265.769470 283.847656 292.650299 ]
+
+No adv!
+time: 0.602013 
+
+
+numSplits: 2685
+./delta_network_test 1 nnet/ACASXU_run2a_5_5_batch_2000.nnet compressed_nnets/ACASXU_run2a_5_5_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-1129.729126 -500.243866 -564.170167 -574.869629 -553.679566 ]
+[1129.361206 499.749572 563.233520 574.522827 553.132812 ]
+
+No adv!
+time: 3.032569 
+
+
+numSplits: 13936
+./delta_network_test 1 nnet/ACASXU_run2a_5_6_batch_2000.nnet compressed_nnets/ACASXU_run2a_5_6_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-4633.213868 -1511.140259 -867.904908 -1455.831421 -1191.953858 ]
+[4635.280761 1580.529541 855.869445 1524.823242 1171.304199 ]
+
+No adv!
+time: 27.105215 
+
+
+numSplits: 124758
+./delta_network_test 1 nnet/ACASXU_run2a_5_7_batch_2000.nnet compressed_nnets/ACASXU_run2a_5_7_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-5219.983887 -468.444642 -505.497895 -493.200898 -602.844422 ]
+[5204.643066 468.471252 506.918548 492.953735 603.212646 ]
+
+No adv!
+time: 9.255314 
+
+
+numSplits: 39928
+./delta_network_test 1 nnet/ACASXU_run2a_5_8_batch_2000.nnet compressed_nnets/ACASXU_run2a_5_8_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-5526.358399 -735.193421 -793.580445 -615.164979 -838.376587 ]
+[5526.908203 734.535339 792.677001 614.134033 838.050720 ]
+
+No adv!
+time: 15.010688 
+
+
+numSplits: 67886
+./delta_network_test 1 nnet/ACASXU_run2a_5_9_batch_2000.nnet compressed_nnets/ACASXU_run2a_5_9_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-4696.479981 -385.993866 -469.937012 -553.702881 -540.134583 ]
+[4706.170898 384.622711 468.817504 553.432006 537.307739 ]
+
+No adv!
+time: 12.731348 
+
+
+numSplits: 54599
+./delta_network_test 3 nnet/ACASXU_run2a_1_1_batch_2000.nnet compressed_nnets/ACASXU_run2a_1_1_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-3.766041 -4.538112 -4.836629 -5.072316 -5.048097 ]
+[3.629053 4.365223 4.705056 4.946382 4.997174 ]
+
+No adv!
+time: 0.077620 
+
+
+numSplits: 153
+./delta_network_test 3 nnet/ACASXU_run2a_1_2_batch_2000.nnet compressed_nnets/ACASXU_run2a_1_2_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-4.175065 -4.776683 -4.837557 -5.761171 -5.666333 ]
+[4.042265 4.659264 4.723797 5.575376 5.538445 ]
+
+No adv!
+time: 0.083797 
+
+
+numSplits: 186
+./delta_network_test 3 nnet/ACASXU_run2a_1_3_batch_2000.nnet compressed_nnets/ACASXU_run2a_1_3_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-10.492520 -10.504370 -12.150675 -11.162550 -12.508850 ]
+[10.215434 10.323517 11.826830 11.333539 12.336007 ]
+
+No adv!
+time: 0.127187 
+
+
+numSplits: 437
+./delta_network_test 3 nnet/ACASXU_run2a_1_4_batch_2000.nnet compressed_nnets/ACASXU_run2a_1_4_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-2.721955 -2.887879 -2.915482 -3.444626 -3.660441 ]
+[2.804790 2.956966 2.971299 3.503284 3.703153 ]
+
+No adv!
+time: 0.031143 
+
+
+numSplits: 27
+./delta_network_test 3 nnet/ACASXU_run2a_1_5_batch_2000.nnet compressed_nnets/ACASXU_run2a_1_5_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-1.086579 -1.169667 -1.166158 -1.625976 -1.502486 ]
+[1.108775 1.195871 1.188402 1.659816 1.510429 ]
+
+No adv!
+time: 0.019777 
+
+
+numSplits: 11
+./delta_network_test 3 nnet/ACASXU_run2a_1_6_batch_2000.nnet compressed_nnets/ACASXU_run2a_1_6_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-0.089434 -0.165854 -0.127001 -0.205898 -0.157245 ]
+[0.088984 0.164673 0.126441 0.205101 0.157671 ]
+
+No adv!
+time: 0.003094 
+
+
+numSplits: 1
+./delta_network_test 3 nnet/ACASXU_run2a_2_1_batch_2000.nnet compressed_nnets/ACASXU_run2a_2_1_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-6.740913 -5.593500 -5.343529 -7.128426 -7.179047 ]
+[6.765604 5.615318 5.374646 7.157955 7.210829 ]
+
+No adv!
+time: 0.052806 
+
+
+numSplits: 67
+./delta_network_test 3 nnet/ACASXU_run2a_2_2_batch_2000.nnet compressed_nnets/ACASXU_run2a_2_2_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-1.760520 -1.618732 -1.641178 -1.818167 -1.783441 ]
+[1.731962 1.584585 1.600091 1.794375 1.741937 ]
+
+No adv!
+time: 0.048609 
+
+
+numSplits: 74
+./delta_network_test 3 nnet/ACASXU_run2a_2_3_batch_2000.nnet compressed_nnets/ACASXU_run2a_2_3_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-2.220331 -1.717454 -1.764047 -2.010905 -2.101956 ]
+[2.171397 1.648648 1.704550 1.956055 2.045297 ]
+
+No adv!
+time: 0.061114 
+
+
+numSplits: 64
+./delta_network_test 3 nnet/ACASXU_run2a_2_4_batch_2000.nnet compressed_nnets/ACASXU_run2a_2_4_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-1.124972 -0.711956 -0.530895 -0.786918 -0.745696 ]
+[1.117762 0.709505 0.532615 0.794261 0.760223 ]
+
+No adv!
+time: 0.018881 
+
+
+numSplits: 11
+./delta_network_test 3 nnet/ACASXU_run2a_2_5_batch_2000.nnet compressed_nnets/ACASXU_run2a_2_5_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-4.700017 -2.284997 -1.990142 -2.621918 -2.131561 ]
+[4.773954 2.287818 2.015626 2.587697 2.188507 ]
+
+No adv!
+time: 0.021153 
+
+
+numSplits: 25
+./delta_network_test 3 nnet/ACASXU_run2a_2_6_batch_2000.nnet compressed_nnets/ACASXU_run2a_2_6_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-19.769139 -3.388937 -3.941211 -4.651847 -4.273361 ]
+[19.727445 3.364677 4.017414 4.635396 4.353438 ]
+
+No adv!
+time: 0.031392 
+
+
+numSplits: 30
+./delta_network_test 3 nnet/ACASXU_run2a_2_7_batch_2000.nnet compressed_nnets/ACASXU_run2a_2_7_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-9.936024 -0.830711 -0.735497 -0.736643 -0.763924 ]
+[9.797961 0.848593 0.732412 0.746715 0.767488 ]
+
+No adv!
+time: 0.064837 
+
+
+numSplits: 47
+./delta_network_test 3 nnet/ACASXU_run2a_2_8_batch_2000.nnet compressed_nnets/ACASXU_run2a_2_8_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-12.072519 -1.188842 -2.275998 -2.354484 -2.100423 ]
+[11.911558 1.164581 2.326118 2.331546 2.079409 ]
+
+No adv!
+time: 0.032000 
+
+
+numSplits: 47
+./delta_network_test 3 nnet/ACASXU_run2a_2_9_batch_2000.nnet compressed_nnets/ACASXU_run2a_2_9_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-0.810238 -0.058734 -0.060244 -0.093975 -0.058559 ]
+[0.824844 0.056525 0.053057 0.086249 0.051582 ]
+
+No adv!
+time: 0.007109 
+
+
+numSplits: 3
+./delta_network_test 3 nnet/ACASXU_run2a_3_1_batch_2000.nnet compressed_nnets/ACASXU_run2a_3_1_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-5.441239 -3.979689 -3.876261 -4.504800 -3.682501 ]
+[5.415275 3.931154 3.839175 4.453340 3.652806 ]
+
+No adv!
+time: 0.092210 
+
+
+numSplits: 181
+./delta_network_test 3 nnet/ACASXU_run2a_3_2_batch_2000.nnet compressed_nnets/ACASXU_run2a_3_2_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-6.591643 -5.883408 -5.341400 -6.627621 -6.583514 ]
+[6.594229 5.901392 5.328508 6.677637 6.573266 ]
+
+No adv!
+time: 0.068156 
+
+
+numSplits: 124
+./delta_network_test 3 nnet/ACASXU_run2a_3_3_batch_2000.nnet compressed_nnets/ACASXU_run2a_3_3_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-1.972428 -1.460291 -1.797028 -1.606426 -1.576104 ]
+[1.958618 1.480221 1.823551 1.618225 1.606513 ]
+
+No adv!
+time: 0.068463 
+
+
+numSplits: 89
+./delta_network_test 3 nnet/ACASXU_run2a_3_4_batch_2000.nnet compressed_nnets/ACASXU_run2a_3_4_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-13.898077 -7.554420 -8.319619 -9.927280 -7.293431 ]
+[13.828315 7.538506 8.292087 9.911568 7.267850 ]
+
+No adv!
+time: 0.044671 
+
+
+numSplits: 42
+./delta_network_test 3 nnet/ACASXU_run2a_3_5_batch_2000.nnet compressed_nnets/ACASXU_run2a_3_5_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-2.550287 -0.553320 -0.745168 -0.596827 -0.653723 ]
+[2.429443 0.540726 0.779551 0.576580 0.642681 ]
+
+No adv!
+time: 0.013057 
+
+
+numSplits: 8
+./delta_network_test 3 nnet/ACASXU_run2a_3_6_batch_2000.nnet compressed_nnets/ACASXU_run2a_3_6_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-79.820046 -12.425994 -15.483531 -15.391126 -12.911412 ]
+[79.114585 12.599937 15.415441 15.650151 13.191767 ]
+
+No adv!
+time: 0.066369 
+
+
+numSplits: 84
+./delta_network_test 3 nnet/ACASXU_run2a_3_7_batch_2000.nnet compressed_nnets/ACASXU_run2a_3_7_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-4.293181 -0.399542 -0.398402 -0.399890 -0.408883 ]
+[4.089618 0.394089 0.413064 0.385389 0.420165 ]
+
+No adv!
+time: 0.007967 
+
+
+numSplits: 4
+./delta_network_test 3 nnet/ACASXU_run2a_3_8_batch_2000.nnet compressed_nnets/ACASXU_run2a_3_8_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-11.975030 -1.671396 -1.356134 -1.731068 -2.865819 ]
+[12.767914 1.479759 1.415497 1.519864 2.424448 ]
+
+No adv!
+time: 0.059529 
+
+
+numSplits: 58
+./delta_network_test 3 nnet/ACASXU_run2a_3_9_batch_2000.nnet compressed_nnets/ACASXU_run2a_3_9_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-9.108710 -1.061916 -1.416565 -0.980352 -0.964355 ]
+[9.177121 1.048431 1.419273 0.969497 0.936689 ]
+
+No adv!
+time: 0.107876 
+
+
+numSplits: 242
+./delta_network_test 3 nnet/ACASXU_run2a_4_1_batch_2000.nnet compressed_nnets/ACASXU_run2a_4_1_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-3.154601 -3.101911 -3.502723 -3.247970 -4.362924 ]
+[3.451663 3.463391 3.890718 3.456623 4.757351 ]
+
+No adv!
+time: 0.040648 
+
+
+numSplits: 58
+./delta_network_test 3 nnet/ACASXU_run2a_4_2_batch_2000.nnet compressed_nnets/ACASXU_run2a_4_2_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-3.764168 -3.600181 -3.953132 -3.819652 -4.346833 ]
+[3.822019 3.712828 4.066186 3.839607 4.492086 ]
+
+No adv!
+time: 0.098144 
+
+
+numSplits: 260
+./delta_network_test 3 nnet/ACASXU_run2a_4_3_batch_2000.nnet compressed_nnets/ACASXU_run2a_4_3_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-4.466860 -3.367492 -3.005294 -3.718436 -3.696497 ]
+[4.494359 3.369569 3.017416 3.715609 3.715550 ]
+
+No adv!
+time: 0.054433 
+
+
+numSplits: 86
+./delta_network_test 3 nnet/ACASXU_run2a_4_4_batch_2000.nnet compressed_nnets/ACASXU_run2a_4_4_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-3.245403 -1.459818 -1.558391 -1.753836 -1.917163 ]
+[3.236835 1.457591 1.563704 1.733744 1.928753 ]
+
+No adv!
+time: 0.019725 
+
+
+numSplits: 9
+./delta_network_test 3 nnet/ACASXU_run2a_4_5_batch_2000.nnet compressed_nnets/ACASXU_run2a_4_5_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-3.206056 -1.148415 -1.106601 -1.384077 -1.341325 ]
+[3.210867 1.194069 1.160707 1.419707 1.430538 ]
+
+No adv!
+time: 0.010278 
+
+
+numSplits: 7
+./delta_network_test 3 nnet/ACASXU_run2a_4_6_batch_2000.nnet compressed_nnets/ACASXU_run2a_4_6_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-22.966658 -3.476240 -3.095247 -3.393556 -3.397434 ]
+[23.452386 3.418303 3.117707 3.407390 3.442777 ]
+
+No adv!
+time: 0.075150 
+
+
+numSplits: 90
+./delta_network_test 3 nnet/ACASXU_run2a_4_7_batch_2000.nnet compressed_nnets/ACASXU_run2a_4_7_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-19.783719 -2.710212 -3.419892 -2.669859 -2.947387 ]
+[19.279916 2.797408 3.473014 2.749719 3.006923 ]
+
+No adv!
+time: 0.061413 
+
+
+numSplits: 123
+./delta_network_test 3 nnet/ACASXU_run2a_4_8_batch_2000.nnet compressed_nnets/ACASXU_run2a_4_8_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-15.383416 -1.595111 -1.386793 -1.818940 -1.697999 ]
+[15.084714 1.636375 1.377610 1.810527 1.689980 ]
+
+No adv!
+time: 0.073751 
+
+
+numSplits: 92
+./delta_network_test 3 nnet/ACASXU_run2a_4_9_batch_2000.nnet compressed_nnets/ACASXU_run2a_4_9_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-87.544350 -14.071334 -10.690323 -12.292772 -12.038461 ]
+[85.326087 14.446199 11.411216 11.915241 12.565585 ]
+
+No adv!
+time: 0.098101 
+
+
+numSplits: 210
+./delta_network_test 3 nnet/ACASXU_run2a_5_1_batch_2000.nnet compressed_nnets/ACASXU_run2a_5_1_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-2.939466 -2.832706 -2.809782 -3.551342 -3.502913 ]
+[2.978050 2.891227 2.875226 3.612728 3.524037 ]
+
+No adv!
+time: 0.065207 
+
+
+numSplits: 69
+./delta_network_test 3 nnet/ACASXU_run2a_5_2_batch_2000.nnet compressed_nnets/ACASXU_run2a_5_2_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-0.827636 -0.916335 -0.830915 -0.966337 -0.740599 ]
+[0.755014 0.818484 0.758487 0.846648 0.734565 ]
+
+No adv!
+time: 0.018419 
+
+
+numSplits: 17
+./delta_network_test 3 nnet/ACASXU_run2a_5_3_batch_2000.nnet compressed_nnets/ACASXU_run2a_5_3_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-2.895304 -1.675271 -1.576954 -1.815973 -1.556580 ]
+[2.861806 1.718940 1.630501 1.839538 1.582358 ]
+
+No adv!
+time: 0.032680 
+
+
+numSplits: 19
+./delta_network_test 3 nnet/ACASXU_run2a_5_4_batch_2000.nnet compressed_nnets/ACASXU_run2a_5_4_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-3.006441 -1.320924 -1.323552 -1.395847 -1.445636 ]
+[2.952705 1.303416 1.294697 1.374397 1.428915 ]
+
+No adv!
+time: 0.027038 
+
+
+numSplits: 17
+./delta_network_test 3 nnet/ACASXU_run2a_5_5_batch_2000.nnet compressed_nnets/ACASXU_run2a_5_5_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-12.689404 -5.664172 -6.417400 -6.510942 -6.253290 ]
+[12.610280 5.636081 6.365921 6.499868 6.239486 ]
+
+No adv!
+time: 0.036204 
+
+
+numSplits: 30
+./delta_network_test 3 nnet/ACASXU_run2a_5_6_batch_2000.nnet compressed_nnets/ACASXU_run2a_5_6_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-30.690346 -10.411985 -5.932393 -10.029231 -7.988163 ]
+[31.642307 10.569299 5.662819 10.191198 7.948258 ]
+
+No adv!
+time: 0.064953 
+
+
+numSplits: 83
+./delta_network_test 3 nnet/ACASXU_run2a_5_7_batch_2000.nnet compressed_nnets/ACASXU_run2a_5_7_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-2.542004 -0.196588 -0.216628 -0.219254 -0.285679 ]
+[2.630385 0.198727 0.211639 0.221275 0.283332 ]
+
+No adv!
+time: 0.019205 
+
+
+numSplits: 10
+./delta_network_test 3 nnet/ACASXU_run2a_5_8_batch_2000.nnet compressed_nnets/ACASXU_run2a_5_8_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-14.748012 -1.899345 -2.050366 -1.544908 -2.197347 ]
+[14.670595 1.912357 2.080434 1.544018 2.213517 ]
+
+No adv!
+time: 0.042165 
+
+
+numSplits: 43
+./delta_network_test 3 nnet/ACASXU_run2a_5_9_batch_2000.nnet compressed_nnets/ACASXU_run2a_5_9_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-2.415927 -0.261752 -0.251680 -0.357650 -0.317593 ]
+[2.689329 0.230731 0.227925 0.311591 0.272081 ]
+
+No adv!
+time: 0.018231 
+
+
+numSplits: 9
+./delta_network_test 4 nnet/ACASXU_run2a_1_1_batch_2000.nnet compressed_nnets/ACASXU_run2a_1_1_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-0.575601 -0.689064 -0.735552 -0.768190 -0.765845 ]
+[0.535472 0.647001 0.690847 0.735809 0.734780 ]
+
+No adv!
+time: 0.031740 
+
+
+numSplits: 29
+./delta_network_test 4 nnet/ACASXU_run2a_1_2_batch_2000.nnet compressed_nnets/ACASXU_run2a_1_2_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-2.043155 -2.336425 -2.397586 -2.810510 -2.824656 ]
+[2.058618 2.379785 2.381919 2.864187 2.784255 ]
+
+No adv!
+time: 0.062447 
+
+
+numSplits: 90
+./delta_network_test 4 nnet/ACASXU_run2a_1_3_batch_2000.nnet compressed_nnets/ACASXU_run2a_1_3_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-2.788479 -2.805569 -3.237024 -3.051165 -3.369310 ]
+[2.852157 2.871998 3.284984 3.084772 3.395360 ]
+
+No adv!
+time: 0.073340 
+
+
+numSplits: 90
+./delta_network_test 4 nnet/ACASXU_run2a_1_4_batch_2000.nnet compressed_nnets/ACASXU_run2a_1_4_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-1.583842 -1.685432 -1.700557 -2.005919 -2.130492 ]
+[1.649909 1.723959 1.746419 2.054787 2.174055 ]
+
+No adv!
+time: 0.008159 
+
+
+numSplits: 12
+./delta_network_test 4 nnet/ACASXU_run2a_1_5_batch_2000.nnet compressed_nnets/ACASXU_run2a_1_5_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-0.169100 -0.179314 -0.178366 -0.249263 -0.228473 ]
+[0.166215 0.177896 0.176329 0.245484 0.224031 ]
+
+No adv!
+time: 0.017177 
+
+
+numSplits: 9
+./delta_network_test 4 nnet/ACASXU_run2a_1_6_batch_2000.nnet compressed_nnets/ACASXU_run2a_1_6_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-0.071268 -0.127210 -0.103242 -0.153934 -0.117828 ]
+[0.065233 0.121206 0.095355 0.149077 0.113490 ]
+
+No adv!
+time: 0.003086 
+
+
+numSplits: 1
+./delta_network_test 4 nnet/ACASXU_run2a_2_1_batch_2000.nnet compressed_nnets/ACASXU_run2a_2_1_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-1.061584 -0.872970 -0.831987 -1.105918 -1.116961 ]
+[1.030954 0.856045 0.821497 1.092178 1.106095 ]
+
+No adv!
+time: 0.029437 
+
+
+numSplits: 19
+./delta_network_test 4 nnet/ACASXU_run2a_2_2_batch_2000.nnet compressed_nnets/ACASXU_run2a_2_2_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-5.859219 -5.394264 -5.467348 -6.096621 -5.946653 ]
+[5.785293 5.277235 5.357293 6.022805 5.826097 ]
+
+No adv!
+time: 0.060172 
+
+
+numSplits: 73
+./delta_network_test 4 nnet/ACASXU_run2a_2_3_batch_2000.nnet compressed_nnets/ACASXU_run2a_2_3_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-0.369487 -0.252831 -0.245279 -0.317934 -0.289979 ]
+[0.368431 0.253114 0.249961 0.321702 0.296095 ]
+
+No adv!
+time: 0.017142 
+
+
+numSplits: 11
+./delta_network_test 4 nnet/ACASXU_run2a_2_4_batch_2000.nnet compressed_nnets/ACASXU_run2a_2_4_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-1.523632 -0.940829 -0.703277 -1.049870 -0.999857 ]
+[1.497657 0.935823 0.697676 1.036399 1.000213 ]
+
+No adv!
+time: 0.017570 
+
+
+numSplits: 8
+./delta_network_test 4 nnet/ACASXU_run2a_2_5_batch_2000.nnet compressed_nnets/ACASXU_run2a_2_5_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-1.244578 -0.597160 -0.526735 -0.679400 -0.566664 ]
+[1.252901 0.600691 0.532896 0.684889 0.574827 ]
+
+No adv!
+time: 0.024741 
+
+
+numSplits: 19
+./delta_network_test 4 nnet/ACASXU_run2a_2_6_batch_2000.nnet compressed_nnets/ACASXU_run2a_2_6_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-17.162337 -2.937423 -3.497291 -4.045655 -3.794299 ]
+[17.145160 2.940236 3.488488 4.038480 3.788642 ]
+
+No adv!
+time: 0.075112 
+
+
+numSplits: 148
+./delta_network_test 4 nnet/ACASXU_run2a_2_7_batch_2000.nnet compressed_nnets/ACASXU_run2a_2_7_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-27.785105 -2.609833 -2.389622 -2.541441 -2.431865 ]
+[27.733289 2.516340 2.387830 2.538922 2.424354 ]
+
+No adv!
+time: 0.035922 
+
+
+numSplits: 24
+./delta_network_test 4 nnet/ACASXU_run2a_2_8_batch_2000.nnet compressed_nnets/ACASXU_run2a_2_8_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-92.914223 -9.211925 -18.135552 -18.669577 -16.478184 ]
+[90.543884 9.337262 17.924936 18.401153 16.076330 ]
+
+No adv!
+time: 0.069804 
+
+
+numSplits: 110
+./delta_network_test 4 nnet/ACASXU_run2a_2_9_batch_2000.nnet compressed_nnets/ACASXU_run2a_2_9_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-1.714555 -0.137373 -0.137073 -0.203836 -0.130389 ]
+[1.768910 0.130376 0.119958 0.182290 0.114462 ]
+
+No adv!
+time: 0.011558 
+
+
+numSplits: 5
+./delta_network_test 4 nnet/ACASXU_run2a_3_1_batch_2000.nnet compressed_nnets/ACASXU_run2a_3_1_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-3.892618 -2.831955 -2.763581 -3.212861 -2.618969 ]
+[3.898574 2.797189 2.736248 3.176437 2.610039 ]
+
+No adv!
+time: 0.077902 
+
+
+numSplits: 169
+./delta_network_test 4 nnet/ACASXU_run2a_3_2_batch_2000.nnet compressed_nnets/ACASXU_run2a_3_2_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-1.563682 -1.393788 -1.276003 -1.535331 -1.576574 ]
+[1.461966 1.286370 1.180202 1.467348 1.426876 ]
+
+No adv!
+time: 0.024587 
+
+
+numSplits: 13
+./delta_network_test 4 nnet/ACASXU_run2a_3_3_batch_2000.nnet compressed_nnets/ACASXU_run2a_3_3_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-0.285492 -0.197103 -0.248302 -0.219627 -0.224567 ]
+[0.284885 0.201348 0.260472 0.219289 0.230207 ]
+
+No adv!
+time: 0.009172 
+
+
+numSplits: 4
+./delta_network_test 4 nnet/ACASXU_run2a_3_4_batch_2000.nnet compressed_nnets/ACASXU_run2a_3_4_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-0.422119 -0.232668 -0.262684 -0.329052 -0.225424 ]
+[0.379938 0.207950 0.235207 0.275915 0.206394 ]
+
+No adv!
+time: 0.020257 
+
+
+numSplits: 7
+./delta_network_test 4 nnet/ACASXU_run2a_3_5_batch_2000.nnet compressed_nnets/ACASXU_run2a_3_5_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-4.998457 -1.087121 -1.458493 -1.141172 -1.214140 ]
+[4.797503 1.075261 1.477337 1.130741 1.207568 ]
+
+No adv!
+time: 0.028026 
+
+
+numSplits: 25
+./delta_network_test 4 nnet/ACASXU_run2a_3_6_batch_2000.nnet compressed_nnets/ACASXU_run2a_3_6_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-26.781603 -4.225541 -5.210223 -5.240603 -4.399604 ]
+[26.906078 4.229426 5.193402 5.251769 4.405264 ]
+
+No adv!
+time: 0.032902 
+
+
+numSplits: 33
+./delta_network_test 4 nnet/ACASXU_run2a_3_7_batch_2000.nnet compressed_nnets/ACASXU_run2a_3_7_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-5.782918 -0.532046 -0.602126 -0.522678 -0.565202 ]
+[5.820862 0.534035 0.591305 0.522295 0.565962 ]
+
+No adv!
+time: 0.018241 
+
+
+numSplits: 12
+./delta_network_test 4 nnet/ACASXU_run2a_3_8_batch_2000.nnet compressed_nnets/ACASXU_run2a_3_8_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-10.577704 -1.517847 -1.270385 -1.542572 -2.650157 ]
+[11.201695 1.416742 1.225872 1.437705 2.368363 ]
+
+No adv!
+time: 0.028967 
+
+
+numSplits: 27
+./delta_network_test 4 nnet/ACASXU_run2a_3_9_batch_2000.nnet compressed_nnets/ACASXU_run2a_3_9_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-12.243875 -1.429097 -1.934003 -1.344150 -1.302327 ]
+[12.735608 1.445896 1.889304 1.345216 1.281080 ]
+
+No adv!
+time: 0.080068 
+
+
+numSplits: 149
+./delta_network_test 4 nnet/ACASXU_run2a_4_1_batch_2000.nnet compressed_nnets/ACASXU_run2a_4_1_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-0.339603 -0.317263 -0.366339 -0.323520 -0.448185 ]
+[0.351600 0.331736 0.387144 0.319426 0.482609 ]
+
+No adv!
+time: 0.013409 
+
+
+numSplits: 6
+./delta_network_test 4 nnet/ACASXU_run2a_4_2_batch_2000.nnet compressed_nnets/ACASXU_run2a_4_2_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-1.930652 -1.838612 -2.036538 -1.927517 -2.252804 ]
+[1.933238 1.872105 2.058303 1.956041 2.253908 ]
+
+No adv!
+time: 0.052406 
+
+
+numSplits: 43
+./delta_network_test 4 nnet/ACASXU_run2a_4_3_batch_2000.nnet compressed_nnets/ACASXU_run2a_4_3_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-0.835927 -0.626892 -0.572602 -0.725202 -0.711784 ]
+[0.837185 0.619281 0.554218 0.726648 0.691062 ]
+
+No adv!
+time: 0.024698 
+
+
+numSplits: 30
+./delta_network_test 4 nnet/ACASXU_run2a_4_4_batch_2000.nnet compressed_nnets/ACASXU_run2a_4_4_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-3.054200 -1.383852 -1.475884 -1.650531 -1.810901 ]
+[3.037141 1.382565 1.471620 1.650969 1.810925 ]
+
+No adv!
+time: 0.031163 
+
+
+numSplits: 22
+./delta_network_test 4 nnet/ACASXU_run2a_4_5_batch_2000.nnet compressed_nnets/ACASXU_run2a_4_5_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-8.118193 -2.969719 -2.770930 -3.545321 -3.372994 ]
+[8.177911 3.046856 2.847497 3.569071 3.511324 ]
+
+No adv!
+time: 0.065277 
+
+
+numSplits: 77
+./delta_network_test 4 nnet/ACASXU_run2a_4_6_batch_2000.nnet compressed_nnets/ACASXU_run2a_4_6_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-3.582368 -0.531512 -0.475827 -0.524673 -0.526110 ]
+[3.594803 0.533943 0.477349 0.529589 0.525321 ]
+
+No adv!
+time: 0.028962 
+
+
+numSplits: 18
+./delta_network_test 4 nnet/ACASXU_run2a_4_7_batch_2000.nnet compressed_nnets/ACASXU_run2a_4_7_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-5.969756 -0.793691 -1.051818 -0.788903 -0.897370 ]
+[5.863853 0.805758 1.047850 0.803409 0.897634 ]
+
+No adv!
+time: 0.044941 
+
+
+numSplits: 27
+./delta_network_test 4 nnet/ACASXU_run2a_4_8_batch_2000.nnet compressed_nnets/ACASXU_run2a_4_8_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-22.436001 -2.487694 -2.086124 -2.653425 -2.580458 ]
+[22.356477 2.498641 2.091546 2.661330 2.592050 ]
+
+No adv!
+time: 0.050326 
+
+
+numSplits: 66
+./delta_network_test 4 nnet/ACASXU_run2a_4_9_batch_2000.nnet compressed_nnets/ACASXU_run2a_4_9_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-23.710009 -4.003970 -2.985952 -3.407526 -3.336345 ]
+[23.965517 3.924876 3.141769 3.286299 3.485605 ]
+
+No adv!
+time: 0.077842 
+
+
+numSplits: 106
+./delta_network_test 4 nnet/ACASXU_run2a_5_1_batch_2000.nnet compressed_nnets/ACASXU_run2a_5_1_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-1.534431 -1.468053 -1.458912 -1.820470 -1.797138 ]
+[1.526859 1.474164 1.477462 1.828816 1.806042 ]
+
+No adv!
+time: 0.035870 
+
+
+numSplits: 29
+./delta_network_test 4 nnet/ACASXU_run2a_5_2_batch_2000.nnet compressed_nnets/ACASXU_run2a_5_2_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-1.282623 -1.421208 -1.306465 -1.467992 -1.206540 ]
+[1.301817 1.447534 1.329039 1.508307 1.208354 ]
+
+No adv!
+time: 0.018318 
+
+
+numSplits: 6
+./delta_network_test 4 nnet/ACASXU_run2a_5_3_batch_2000.nnet compressed_nnets/ACASXU_run2a_5_3_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-1.632616 -0.981702 -0.936381 -1.048307 -0.898637 ]
+[1.612967 0.958139 0.917580 1.027759 0.927282 ]
+
+No adv!
+time: 0.028266 
+
+
+numSplits: 14
+./delta_network_test 4 nnet/ACASXU_run2a_5_4_batch_2000.nnet compressed_nnets/ACASXU_run2a_5_4_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-0.627569 -0.276474 -0.277507 -0.296142 -0.305578 ]
+[0.635599 0.272345 0.272073 0.288110 0.297184 ]
+
+No adv!
+time: 0.017899 
+
+
+numSplits: 9
+./delta_network_test 4 nnet/ACASXU_run2a_5_5_batch_2000.nnet compressed_nnets/ACASXU_run2a_5_5_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-6.702201 -2.978259 -3.375090 -3.419469 -3.292771 ]
+[6.655772 2.962646 3.348353 3.416532 3.280325 ]
+
+No adv!
+time: 0.038902 
+
+
+numSplits: 38
+./delta_network_test 4 nnet/ACASXU_run2a_5_6_batch_2000.nnet compressed_nnets/ACASXU_run2a_5_6_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-8.446212 -2.967442 -1.706880 -2.858613 -2.238163 ]
+[9.082650 2.943171 1.553816 2.837579 2.237915 ]
+
+No adv!
+time: 0.044299 
+
+
+numSplits: 50
+./delta_network_test 4 nnet/ACASXU_run2a_5_7_batch_2000.nnet compressed_nnets/ACASXU_run2a_5_7_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-7.407094 -0.654547 -0.695295 -0.686198 -0.837096 ]
+[7.147905 0.657629 0.720771 0.693644 0.849144 ]
+
+No adv!
+time: 0.028940 
+
+
+numSplits: 29
+./delta_network_test 4 nnet/ACASXU_run2a_5_8_batch_2000.nnet compressed_nnets/ACASXU_run2a_5_8_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-19.874146 -2.587828 -2.858508 -2.160053 -3.004361 ]
+[19.914209 2.583682 2.876229 2.149165 3.022114 ]
+
+No adv!
+time: 0.033665 
+
+
+numSplits: 36
+./delta_network_test 4 nnet/ACASXU_run2a_5_9_batch_2000.nnet compressed_nnets/ACASXU_run2a_5_9_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-8.627780 -0.728522 -0.915999 -1.056278 -1.051814 ]
+[9.121538 0.719024 0.855264 1.028411 0.980287 ]
+
+No adv!
+time: 0.024466 
+
+
+numSplits: 17
+./delta_network_test 5 nnet/ACASXU_run2a_1_1_batch_2000.nnet compressed_nnets/ACASXU_run2a_1_1_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-49.148087 -58.836392 -62.545147 -65.209191 -64.912758 ]
+[48.609817 58.243820 61.932571 64.784896 64.575317 ]
+
+No adv!
+time: 0.148295 
+
+
+numSplits: 428
+./delta_network_test 7 nnet/ACASXU_run2a_1_9_batch_2000.nnet compressed_nnets/ACASXU_run2a_1_9_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-18.988024 -80.898713 -54.293347 -59.960553 -42.080971 ]
+[19.068235 80.957054 54.384178 60.006710 42.135566 ]
+
+No adv!
+time: 1697.795410 
+
+
+numSplits: 9279759
+./delta_network_test 8 nnet/ACASXU_run2a_2_9_batch_2000.nnet compressed_nnets/ACASXU_run2a_2_9_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-1475.772095 -115.495751 -110.107514 -158.296219 -106.065560 ]
+[1451.911010 106.490501 98.985626 151.804275 97.280189 ]
+
+No adv!
+time: 189.700302 
+
+
+numSplits: 1013792
+./delta_network_test 9 nnet/ACASXU_run2a_3_3_batch_2000.nnet compressed_nnets/ACASXU_run2a_3_3_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-35.172982 -27.371455 -33.303143 -29.609976 -29.067862 ]
+[35.121143 27.285320 33.241180 29.584728 29.044734 ]
+
+No adv!
+time: 0.678487 
+
+
+numSplits: 3156
+./delta_network_test 10 nnet/ACASXU_run2a_4_5_batch_2000.nnet compressed_nnets/ACASXU_run2a_4_5_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-137.754487 -51.598130 -48.490456 -60.855786 -59.209439 ]
+[138.093582 51.527175 48.385719 60.730850 59.179302 ]
+
+No adv!
+time: 0.650752 
+
+
+numSplits: 3132
+./delta_network_test 11 nnet/ACASXU_run2a_1_1_batch_2000.nnet compressed_nnets/ACASXU_run2a_1_1_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-49.148087 -58.836392 -62.545147 -65.209191 -64.912758 ]
+[48.609817 58.243820 61.932571 64.784896 64.575317 ]
+
+No adv!
+time: 0.133632 
+
+
+numSplits: 428
+./delta_network_test 12 nnet/ACASXU_run2a_3_3_batch_2000.nnet compressed_nnets/ACASXU_run2a_3_3_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-482.220978 -376.482392 -457.947846 -407.373292 -399.583344 ]
+[482.171356 375.581237 456.958953 407.056152 399.101470 ]
+
+No adv!
+time: 2.705972 
+
+
+numSplits: 10793
+./delta_network_test 13 nnet/ACASXU_run2a_1_1_batch_2000.nnet compressed_nnets/ACASXU_run2a_1_1_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-566.587220 -678.791993 -722.421692 -755.441590 -752.617005 ]
+[567.360229 679.739135 723.275268 755.513549 753.577026 ]
+
+No adv!
+time: 5.019518 
+
+
+numSplits: 24867
+./delta_network_test 14 nnet/ACASXU_run2a_4_1_batch_2000.nnet compressed_nnets/ACASXU_run2a_4_1_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-401.048554 -396.054535 -445.588105 -406.571442 -550.268860 ]
+[401.421844 396.538726 446.400238 406.856384 551.017089 ]
+
+No adv!
+time: 0.150962 
+
+
+numSplits: 482
+./delta_network_test 14 nnet/ACASXU_run2a_5_1_batch_2000.nnet compressed_nnets/ACASXU_run2a_5_1_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-245.823914 -234.854081 -234.709458 -294.233765 -293.195527 ]
+[246.728103 235.710372 235.360214 295.172424 293.102813 ]
+
+No adv!
+time: 0.235096 
+
+
+numSplits: 899
+./delta_network_test 15 nnet/ACASXU_run2a_4_1_batch_2000.nnet compressed_nnets/ACASXU_run2a_4_1_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-405.945191 -400.895691 -451.035737 -411.541779 -556.986695 ]
+[406.317413 401.362823 451.826904 411.799499 557.728393 ]
+
+No adv!
+time: 0.378983 
+
+
+numSplits: 1347
+./delta_network_test 15 nnet/ACASXU_run2a_5_1_batch_2000.nnet compressed_nnets/ACASXU_run2a_5_1_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-244.376801 -233.485535 -233.345841 -292.518891 -291.468812 ]
+[245.239486 234.287658 233.933853 293.396331 291.362915 ]
+
+No adv!
+time: 0.170238 
+
+
+numSplits: 575
+./delta_network_test 16 nnet/ACASXU_run2a_1_1_batch_2000.nnet compressed_nnets/ACASXU_run2a_1_1_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-195.909699 -234.699936 -249.689148 -260.919831 -259.952118 ]
+[196.218566 235.059753 250.000030 260.991668 260.204681 ]
+
+No adv!
+time: 0.206320 
+
+
+numSplits: 704
+./delta_network_test 26 nnet/ACASXU_run2a_1_1_batch_2000.nnet compressed_nnets/ACASXU_run2a_1_1_batch_2000_16bit.nnet 0.05 -e 15
+Initial output delta:
+[-201.149643 -240.885376 -256.332276 -267.798554 -266.861176 ]
+[201.089401 240.935409 256.257049 267.683685 266.862487 ]
+
+No adv!
+time: 0.194479 
+
+
+numSplits: 696
