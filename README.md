@@ -106,7 +106,6 @@ This is NeuroDiff/ReluDiff's main executable. To get a help menu, run *./delta\_
 - OPTIONS<br/>
 	-p PERTURB : specifies the strength of the global perturbation to apply to the MNIST and HAR properties. For MNIST this should be an integer between 0-254. For HAR, this should be a float between -1 to 1.<br/>
 	-x NUM_PIX : Performs pixel perturbation on the MNIST images instead of global perturbation. NUM_PIX is the number of pixels to randomly select for perturbation.<br/>
-	-e NUM_EXTRA_VARS : the max number of extra variables that can be used during a forward pass. Setting NUM_EXTRA_VARS=0 will use the heuristic described in the paper (this is probably what you want). Only valid when compiled with "extravars" or "extravarssym" make rule.
 	-m DEPTH : (not used for our paper) forces the analysis to 2^DEPTH splits and then prints region verified at each depth<br/>
 ### Output
 Running the above execuatable will produce some output about the verification results. We illustrate on an example:
