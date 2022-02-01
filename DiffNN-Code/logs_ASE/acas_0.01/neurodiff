@@ -1,0 +1,1696 @@
+./delta_network_test 1 nnet/ACASXU_run2a_1_1_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_1_1_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.0736
+Average difference: 0.0001
+Initial output delta:
+[-269.650666 -323.034150 -343.905884 -359.871644 -358.394318 ]
+[270.809356 324.417053 345.055053 360.276184 359.276062 ]
+
+No adv!
+time: 0.220983 
+
+
+numSplits: 440
+./delta_network_test 1 nnet/ACASXU_run2a_1_2_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_1_2_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 0.9596
+Average difference: 0.0001
+Initial output delta:
+[-226.350800 -259.327820 -262.568329 -312.440339 -307.388489 ]
+[225.987503 259.027862 262.606597 311.733642 307.103088 ]
+
+No adv!
+time: 0.498415 
+
+
+numSplits: 1228
+./delta_network_test 1 nnet/ACASXU_run2a_1_3_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_1_3_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.2523
+Average difference: 0.0001
+Initial output delta:
+[-808.009461 -809.757996 -936.777771 -872.646180 -962.491272 ]
+[798.461303 807.439880 926.041687 874.232788 964.901062 ]
+
+No adv!
+time: 4.766121 
+
+
+numSplits: 15524
+./delta_network_test 1 nnet/ACASXU_run2a_1_4_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_1_4_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 0.8800
+Average difference: 0.0001
+Initial output delta:
+[-110.933075 -117.263596 -118.301407 -139.506913 -147.593247 ]
+[110.871826 116.541191 118.017021 138.864944 147.655868 ]
+
+No adv!
+time: 8.366985 
+
+
+numSplits: 25824
+./delta_network_test 1 nnet/ACASXU_run2a_1_5_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_1_5_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 0.6850
+Average difference: 0.0001
+Initial output delta:
+[-76.603188 -82.196785 -81.868722 -113.422448 -103.476754 ]
+[76.421257 81.921760 81.499816 112.916465 102.992195 ]
+
+No adv!
+time: 1.073072 
+
+
+numSplits: 2788
+./delta_network_test 1 nnet/ACASXU_run2a_1_6_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_1_6_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 0.6685
+Average difference: 0.0001
+Initial output delta:
+[-19.385390 -33.345746 -27.503535 -40.781338 -32.085286 ]
+[19.359676 33.367568 27.541114 40.859848 32.051712 ]
+
+No adv!
+time: 0.899560 
+
+
+numSplits: 1919
+./delta_network_test 1 nnet/ACASXU_run2a_1_7_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_1_7_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 0.7173
+Average difference: 0.0001
+Initial output delta:
+[-14.410731 -31.840664 -31.870564 -32.240651 -29.853932 ]
+[14.432094 31.894634 31.760475 32.432441 29.944847 ]
+
+No adv!
+time: 0.236892 
+
+
+numSplits: 432
+./delta_network_test 1 nnet/ACASXU_run2a_1_8_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_1_8_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 0.9245
+Average difference: 0.0001
+Initial output delta:
+[-11.805875 -38.249356 -38.110863 -33.076851 -36.542290 ]
+[11.832752 38.178108 38.177921 33.066284 36.647563 ]
+
+No adv!
+time: 0.411420 
+
+
+numSplits: 779
+./delta_network_test 1 nnet/ACASXU_run2a_1_9_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_1_9_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 0.6637
+Average difference: 0.0001
+Initial output delta:
+[-5.670074 -24.179581 -16.215870 -17.912713 -12.568043 ]
+[5.706538 24.184204 16.257141 17.922496 12.595048 ]
+
+No adv!
+time: 0.152237 
+
+
+numSplits: 192
+./delta_network_test 1 nnet/ACASXU_run2a_2_1_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_2_1_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.0337
+Average difference: 0.0001
+Initial output delta:
+[-257.715119 -213.380478 -204.679230 -272.046723 -275.040680 ]
+[257.772583 213.848892 205.326080 272.396606 275.354187 ]
+
+No adv!
+time: 4.205481 
+
+
+numSplits: 13141
+./delta_network_test 1 nnet/ACASXU_run2a_2_2_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_2_2_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.2079
+Average difference: 0.0001
+Initial output delta:
+[-702.486756 -645.172974 -653.013855 -730.872315 -709.636109 ]
+[702.008178 643.656494 652.027343 729.271606 708.562744 ]
+
+No adv!
+time: 10.788163 
+
+
+numSplits: 38489
+./delta_network_test 1 nnet/ACASXU_run2a_2_3_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_2_3_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.1426
+Average difference: 0.0001
+Initial output delta:
+[-255.101807 -193.920899 -199.823792 -228.268189 -238.959870 ]
+[255.190734 193.438766 199.513198 228.037322 238.558135 ]
+
+No adv!
+time: 4.691773 
+
+
+numSplits: 15832
+./delta_network_test 1 nnet/ACASXU_run2a_2_4_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_2_4_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.1213
+Average difference: 0.0001
+Initial output delta:
+[-263.451996 -164.793046 -123.472382 -183.587342 -175.104447 ]
+[264.123260 164.162597 123.191528 183.035140 175.271270 ]
+
+No adv!
+time: 3.407681 
+
+
+numSplits: 13285
+./delta_network_test 1 nnet/ACASXU_run2a_2_5_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_2_5_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.3181
+Average difference: 0.0001
+Initial output delta:
+[-402.636597 -196.935151 -172.748002 -223.035050 -185.745453 ]
+[401.852111 196.681152 172.927749 223.007949 185.962402 ]
+
+No adv!
+time: 66.596992 
+
+
+numSplits: 235893
+./delta_network_test 1 nnet/ACASXU_run2a_2_6_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_2_6_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.8167
+Average difference: 0.0001
+Initial output delta:
+[-1367.665040 -233.565232 -279.033814 -321.525178 -302.786622 ]
+[1369.087646 233.593032 278.364654 321.760253 302.509368 ]
+
+No adv!
+time: 11.286630 
+
+
+numSplits: 43194
+./delta_network_test 1 nnet/ACASXU_run2a_2_7_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_2_7_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 2.0470
+Average difference: 0.0002
+Initial output delta:
+[-3358.523926 -308.957062 -285.548340 -301.102662 -290.261139 ]
+[3344.586914 310.296722 285.640289 301.626098 290.810272 ]
+
+No adv!
+time: 477.992004 
+
+
+numSplits: 1426838
+./delta_network_test 1 nnet/ACASXU_run2a_2_8_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_2_8_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 2.2443
+Average difference: 0.0002
+Initial output delta:
+[-4879.139649 -492.093720 -955.797730 -982.205872 -864.753113 ]
+[4860.404785 493.493469 958.257141 983.250122 862.005859 ]
+
+No adv!
+time: 59.125514 
+
+
+numSplits: 199969
+./delta_network_test 1 nnet/ACASXU_run2a_2_9_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_2_9_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 2.0685
+Average difference: 0.0002
+Initial output delta:
+[-3984.209717 -310.816254 -295.998566 -438.225190 -290.553772 ]
+[3983.823242 310.819000 296.178192 438.957061 290.939941 ]
+
+No adv!
+time: 69.122917 
+
+
+numSplits: 243697
+./delta_network_test 1 nnet/ACASXU_run2a_3_1_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_3_1_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.1137
+Average difference: 0.0001
+Initial output delta:
+[-465.843567 -340.450837 -331.878266 -385.544312 -315.862519 ]
+[465.418426 339.451812 331.120788 384.354583 315.222503 ]
+
+No adv!
+time: 5.393692 
+
+
+numSplits: 18718
+./delta_network_test 1 nnet/ACASXU_run2a_3_2_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_3_2_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.0595
+Average difference: 0.0001
+Initial output delta:
+[-385.332764 -343.716980 -311.229523 -386.417176 -383.011292 ]
+[386.772735 345.114166 312.372253 388.122344 383.922393 ]
+
+No adv!
+time: 5.406616 
+
+
+numSplits: 20979
+./delta_network_test 1 nnet/ACASXU_run2a_3_3_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_3_3_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.1532
+Average difference: 0.0001
+Initial output delta:
+[-294.324708 -230.111161 -279.824036 -248.811860 -244.053284 ]
+[294.406677 229.271301 278.834625 248.534805 243.537643 ]
+
+No adv!
+time: 142.097335 
+
+
+numSplits: 507194
+./delta_network_test 1 nnet/ACASXU_run2a_3_4_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_3_4_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.1246
+Average difference: 0.0001
+Initial output delta:
+[-275.065125 -149.829514 -164.861283 -197.424622 -144.304581 ]
+[275.495666 150.191497 165.156341 198.136856 144.530166 ]
+
+No adv!
+time: 4.417828 
+
+
+numSplits: 12205
+./delta_network_test 1 nnet/ACASXU_run2a_3_5_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_3_5_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.2647
+Average difference: 0.0001
+Initial output delta:
+[-558.085328 -123.998841 -167.548249 -130.325104 -138.407532 ]
+[558.333496 124.053695 168.126541 130.613479 138.881347 ]
+
+No adv!
+time: 14.381538 
+
+
+numSplits: 49421
+./delta_network_test 1 nnet/ACASXU_run2a_3_6_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_3_6_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 2.1275
+Average difference: 0.0002
+Initial output delta:
+[-2393.703370 -375.447602 -463.745759 -465.807923 -391.575898 ]
+[2399.163330 374.960510 462.911010 465.578735 391.579254 ]
+
+No adv!
+time: 294.331939 
+
+
+numSplits: 963186
+./delta_network_test 1 nnet/ACASXU_run2a_3_7_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_3_7_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.9974
+Average difference: 0.0002
+Initial output delta:
+[-3275.965088 -311.594727 -339.348694 -307.175965 -316.845856 ]
+[3271.718505 311.999938 338.635162 306.729797 316.592620 ]
+
+No adv!
+time: 98.196289 
+
+
+numSplits: 331133
+./delta_network_test 1 nnet/ACASXU_run2a_3_8_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_3_8_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 2.0922
+Average difference: 0.0002
+Initial output delta:
+[-4059.842774 -547.212159 -462.342438 -557.432557 -940.186829 ]
+[4062.505126 547.471313 461.293579 557.331848 940.293151 ]
+
+No adv!
+time: 146.072113 
+
+
+numSplits: 397794
+./delta_network_test 1 nnet/ACASXU_run2a_3_9_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_3_9_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 2.0571
+Average difference: 0.0002
+Initial output delta:
+[-2696.550538 -310.205689 -411.501893 -290.086976 -279.061799 ]
+[2693.157470 310.351074 412.748779 289.878051 278.320098 ]
+progress: 192/1024
+numSplits: 7327649
+./delta_network_test 1 nnet/ACASXU_run2a_4_1_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_4_1_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.1886
+Average difference: 0.0001
+Initial output delta:
+[-501.981690 -495.927826 -557.827332 -508.655335 -688.924500 ]
+[501.712371 495.980895 558.483825 508.953033 689.107238 ]
+progress: 64/1024
+numSplits: 13049774
+./delta_network_test 1 nnet/ACASXU_run2a_4_2_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_4_2_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.0518
+Average difference: 0.0001
+Initial output delta:
+[-438.658783 -423.131318 -464.406312 -441.894623 -511.489197 ]
+[439.187255 424.639526 465.755401 443.497406 512.433654 ]
+
+No adv!
+time: 45.356239 
+
+
+numSplits: 180312
+./delta_network_test 1 nnet/ACASXU_run2a_4_3_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_4_3_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.1610
+Average difference: 0.0001
+Initial output delta:
+[-491.041871 -369.378724 -334.572571 -408.389252 -409.899781 ]
+[491.077575 368.998016 334.419189 408.082397 410.031555 ]
+
+No adv!
+time: 7.148895 
+
+
+numSplits: 24222
+./delta_network_test 1 nnet/ACASXU_run2a_4_4_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_4_4_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.1294
+Average difference: 0.0001
+Initial output delta:
+[-267.320527 -120.062562 -128.964966 -144.222199 -159.076462 ]
+[268.088043 120.211479 129.032363 144.133438 159.419479 ]
+
+No adv!
+time: 2.266751 
+
+
+numSplits: 6407
+./delta_network_test 1 nnet/ACASXU_run2a_4_5_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_4_5_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.5901
+Average difference: 0.0001
+Initial output delta:
+[-751.479737 -281.573212 -264.310059 -332.090943 -322.798646 ]
+[754.367736 281.204254 264.290374 331.691101 323.394805 ]
+
+No adv!
+time: 25.685905 
+
+
+numSplits: 99714
+./delta_network_test 1 nnet/ACASXU_run2a_4_6_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_4_6_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.8111
+Average difference: 0.0001
+Initial output delta:
+[-1395.722657 -208.441987 -186.105500 -205.490830 -204.771225 ]
+[1395.993774 208.517181 185.950210 205.705917 204.669250 ]
+
+No adv!
+time: 1739.290405 
+
+
+numSplits: 5634922
+./delta_network_test 1 nnet/ACASXU_run2a_4_7_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_4_7_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.9072
+Average difference: 0.0001
+Initial output delta:
+[-2640.789795 -359.145356 -468.606446 -357.562867 -402.036011 ]
+[2656.212646 358.013580 466.738952 355.950134 399.866363 ]
+
+No adv!
+time: 314.784759 
+
+
+numSplits: 1270825
+./delta_network_test 1 nnet/ACASXU_run2a_4_8_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_4_8_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.9774
+Average difference: 0.0002
+Initial output delta:
+[-2484.743897 -276.065980 -231.346802 -294.160798 -286.112977 ]
+[2483.859863 276.711883 230.997406 294.134277 286.248077 ]
+
+No adv!
+time: 200.817687 
+
+
+numSplits: 745633
+./delta_network_test 1 nnet/ACASXU_run2a_4_9_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_4_9_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 2.4573
+Average difference: 0.0002
+Initial output delta:
+[-5181.521973 -864.132508 -681.773682 -734.663575 -757.033143 ]
+[5174.500976 866.743957 682.065002 736.546997 755.165039 ]
+progress: 38/1024
+numSplits: 10517720
+./delta_network_test 1 nnet/ACASXU_run2a_5_1_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_5_1_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.0992
+Average difference: 0.0001
+Initial output delta:
+[-298.963318 -285.414917 -285.029633 -357.611207 -356.296845 ]
+[300.026000 286.710266 286.251556 359.023223 356.527221 ]
+
+No adv!
+time: 137.500686 
+
+
+numSplits: 476422
+./delta_network_test 1 nnet/ACASXU_run2a_5_2_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_5_2_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.0230
+Average difference: 0.0001
+Initial output delta:
+[-205.705109 -224.734620 -208.562195 -233.211503 -193.465958 ]
+[205.352462 224.093276 208.061462 232.445922 193.247726 ]
+
+No adv!
+time: 4.360180 
+
+
+numSplits: 14867
+./delta_network_test 1 nnet/ACASXU_run2a_5_3_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_5_3_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.1441
+Average difference: 0.0001
+Initial output delta:
+[-484.895630 -294.750184 -279.014649 -313.428803 -270.878327 ]
+[485.772613 295.871551 280.000396 314.128143 271.373138 ]
+
+No adv!
+time: 1.363589 
+
+
+numSplits: 4158
+./delta_network_test 1 nnet/ACASXU_run2a_5_4_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_5_4_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.1945
+Average difference: 0.0001
+Initial output delta:
+[-340.672883 -150.685273 -150.253129 -160.228531 -165.189316 ]
+[341.228515 150.281997 149.835464 160.065490 165.060333 ]
+
+No adv!
+time: 2.236495 
+
+
+numSplits: 7671
+./delta_network_test 1 nnet/ACASXU_run2a_5_5_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_5_5_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.5465
+Average difference: 0.0001
+Initial output delta:
+[-659.645752 -292.106476 -329.575745 -335.624054 -323.231690 ]
+[658.930297 291.411224 328.397552 335.091888 322.684722 ]
+
+No adv!
+time: 7.427237 
+
+
+numSplits: 29098
+./delta_network_test 1 nnet/ACASXU_run2a_5_6_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_5_6_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.8813
+Average difference: 0.0001
+Initial output delta:
+[-2715.150635 -923.097474 -505.847382 -889.516480 -695.126771 ]
+[2701.471191 921.228698 506.812744 888.959106 694.100708 ]
+
+No adv!
+time: 169.594406 
+
+
+numSplits: 603771
+./delta_network_test 1 nnet/ACASXU_run2a_5_7_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_5_7_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.9911
+Average difference: 0.0002
+Initial output delta:
+[-3007.180420 -269.620942 -290.654267 -283.874115 -346.972992 ]
+[2993.880371 269.628662 291.903015 283.622283 347.255584 ]
+
+No adv!
+time: 34.089744 
+
+
+numSplits: 128921
+./delta_network_test 1 nnet/ACASXU_run2a_5_8_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_5_8_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 2.2048
+Average difference: 0.0002
+Initial output delta:
+[-3300.639161 -439.136963 -474.529389 -367.501893 -500.719056 ]
+[3302.455322 438.505676 473.554718 366.499450 500.319946 ]
+
+No adv!
+time: 74.077713 
+
+
+numSplits: 301036
+./delta_network_test 1 nnet/ACASXU_run2a_5_9_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_5_9_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 2.0548
+Average difference: 0.0002
+Initial output delta:
+[-2838.878663 -233.713196 -284.469727 -335.023560 -327.243012 ]
+[2848.343261 232.292388 283.276184 334.721832 324.379547 ]
+progress: 212/1024
+numSplits: 4598852
+./delta_network_test 3 nnet/ACASXU_run2a_1_1_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_1_1_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.0736
+Average difference: 0.0001
+Initial output delta:
+[-5.387290 -6.487950 -6.918566 -7.249649 -7.225161 ]
+[5.247519 6.311975 6.783827 7.121268 7.171925 ]
+
+No adv!
+time: 0.350027 
+
+
+numSplits: 1188
+./delta_network_test 3 nnet/ACASXU_run2a_1_2_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_1_2_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 0.9596
+Average difference: 0.0001
+Initial output delta:
+[-5.338956 -6.104571 -6.199366 -7.344224 -7.246221 ]
+[5.277665 6.042107 6.136862 7.275140 7.185726 ]
+
+No adv!
+time: 0.211758 
+
+
+numSplits: 570
+./delta_network_test 3 nnet/ACASXU_run2a_1_3_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_1_3_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.2523
+Average difference: 0.0001
+Initial output delta:
+[-12.724938 -12.756314 -14.733326 -13.581786 -15.180311 ]
+[12.410148 12.539113 14.372181 13.747577 14.973516 ]
+
+No adv!
+time: 0.438924 
+
+
+numSplits: 1665
+./delta_network_test 3 nnet/ACASXU_run2a_1_4_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_1_4_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 0.8800
+Average difference: 0.0001
+Initial output delta:
+[-3.428814 -3.631928 -3.664812 -4.328831 -4.598165 ]
+[3.508847 3.699820 3.720065 4.386440 4.640873 ]
+
+No adv!
+time: 0.062054 
+
+
+numSplits: 59
+./delta_network_test 3 nnet/ACASXU_run2a_1_5_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_1_5_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 0.6850
+Average difference: 0.0001
+Initial output delta:
+[-1.331608 -1.429669 -1.425960 -1.989284 -1.836881 ]
+[1.326434 1.430912 1.421462 1.982691 1.806787 ]
+
+No adv!
+time: 0.054267 
+
+
+numSplits: 36
+./delta_network_test 3 nnet/ACASXU_run2a_1_6_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_1_6_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 0.6685
+Average difference: 0.0001
+Initial output delta:
+[-0.138311 -0.255661 -0.196035 -0.317806 -0.243181 ]
+[0.137761 0.254465 0.195369 0.316891 0.243392 ]
+
+No adv!
+time: 0.005308 
+
+
+numSplits: 3
+./delta_network_test 3 nnet/ACASXU_run2a_2_1_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_2_1_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.0337
+Average difference: 0.0001
+Initial output delta:
+[-7.487061 -6.213237 -5.935568 -7.914890 -7.974472 ]
+[7.504161 6.227920 5.961103 7.941229 8.005336 ]
+
+No adv!
+time: 0.110936 
+
+
+numSplits: 199
+./delta_network_test 3 nnet/ACASXU_run2a_2_2_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_2_2_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.2079
+Average difference: 0.0001
+Initial output delta:
+[-2.197967 -2.018479 -2.045977 -2.268548 -2.223939 ]
+[2.161561 1.978186 1.996946 2.240168 2.175163 ]
+
+No adv!
+time: 0.103183 
+
+
+numSplits: 252
+./delta_network_test 3 nnet/ACASXU_run2a_2_3_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_2_3_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.1426
+Average difference: 0.0001
+Initial output delta:
+[-2.653177 -2.051226 -2.109890 -2.404800 -2.513877 ]
+[2.601513 1.979444 2.047052 2.347373 2.453934 ]
+
+No adv!
+time: 0.109603 
+
+
+numSplits: 231
+./delta_network_test 3 nnet/ACASXU_run2a_2_4_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_2_4_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.1213
+Average difference: 0.0001
+Initial output delta:
+[-1.971894 -1.244677 -0.928930 -1.377438 -1.310049 ]
+[1.968399 1.246840 0.936093 1.393266 1.333863 ]
+
+No adv!
+time: 0.061622 
+
+
+numSplits: 55
+./delta_network_test 3 nnet/ACASXU_run2a_2_5_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_2_5_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.3181
+Average difference: 0.0001
+Initial output delta:
+[-6.328461 -3.050113 -2.692742 -3.488850 -2.903227 ]
+[6.351979 3.039128 2.685267 3.458791 2.912303 ]
+
+No adv!
+time: 0.062153 
+
+
+numSplits: 41
+./delta_network_test 3 nnet/ACASXU_run2a_2_6_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_2_6_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.8167
+Average difference: 0.0001
+Initial output delta:
+[-23.130997 -3.963403 -4.732842 -5.460973 -5.143778 ]
+[23.045152 3.936067 4.692008 5.416412 5.084760 ]
+
+No adv!
+time: 0.059311 
+
+
+numSplits: 37
+./delta_network_test 3 nnet/ACASXU_run2a_2_7_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_2_7_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 2.0470
+Average difference: 0.0002
+Initial output delta:
+[-13.600534 -1.143748 -1.008858 -1.012983 -1.049455 ]
+[13.484340 1.160099 1.006390 1.022491 1.052608 ]
+
+No adv!
+time: 0.073187 
+
+
+numSplits: 66
+./delta_network_test 3 nnet/ACASXU_run2a_2_8_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_2_8_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 2.2443
+Average difference: 0.0002
+Initial output delta:
+[-15.115629 -1.471473 -2.935948 -2.978354 -2.657236 ]
+[14.936076 1.461403 2.886993 2.903164 2.575105 ]
+
+No adv!
+time: 0.065052 
+
+
+numSplits: 77
+./delta_network_test 3 nnet/ACASXU_run2a_2_9_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_2_9_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 2.0685
+Average difference: 0.0002
+Initial output delta:
+[-1.379775 -0.100074 -0.104581 -0.162145 -0.101786 ]
+[1.390464 0.101712 0.108651 0.167291 0.106299 ]
+
+No adv!
+time: 0.009910 
+
+
+numSplits: 3
+./delta_network_test 3 nnet/ACASXU_run2a_3_1_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_3_1_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.1137
+Average difference: 0.0001
+Initial output delta:
+[-7.011532 -5.124843 -4.993627 -5.798411 -4.743557 ]
+[6.993649 5.091752 4.967454 5.765844 4.722140 ]
+
+No adv!
+time: 0.260180 
+
+
+numSplits: 655
+./delta_network_test 3 nnet/ACASXU_run2a_3_2_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_3_2_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.0595
+Average difference: 0.0001
+Initial output delta:
+[-8.719112 -7.790745 -7.055785 -8.791015 -8.729273 ]
+[8.726828 7.817233 7.054954 8.853134 8.692825 ]
+
+No adv!
+time: 0.189033 
+
+
+numSplits: 506
+./delta_network_test 3 nnet/ACASXU_run2a_3_3_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_3_3_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.1532
+Average difference: 0.0001
+Initial output delta:
+[-2.061437 -1.527710 -1.880247 -1.680576 -1.648380 ]
+[2.048631 1.550506 1.908902 1.694420 1.680420 ]
+
+No adv!
+time: 0.123058 
+
+
+numSplits: 255
+./delta_network_test 3 nnet/ACASXU_run2a_3_4_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_3_4_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.1246
+Average difference: 0.0001
+Initial output delta:
+[-13.538388 -7.361672 -8.110014 -9.675736 -7.107014 ]
+[13.478668 7.347579 8.084246 9.659039 7.084466 ]
+
+No adv!
+time: 0.083110 
+
+
+numSplits: 101
+./delta_network_test 3 nnet/ACASXU_run2a_3_5_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_3_5_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.2647
+Average difference: 0.0001
+Initial output delta:
+[-3.712295 -0.811297 -1.104145 -0.873902 -0.960448 ]
+[3.621983 0.806717 1.139055 0.862788 0.964110 ]
+
+No adv!
+time: 0.020556 
+
+
+numSplits: 14
+./delta_network_test 3 nnet/ACASXU_run2a_3_6_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_3_6_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 2.1275
+Average difference: 0.0002
+Initial output delta:
+[-92.128792 -14.563436 -18.105414 -18.082575 -15.170357 ]
+[93.503952 14.529010 17.795600 18.048917 15.213418 ]
+
+No adv!
+time: 0.094774 
+
+
+numSplits: 161
+./delta_network_test 3 nnet/ACASXU_run2a_3_7_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_3_7_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.9974
+Average difference: 0.0002
+Initial output delta:
+[-5.078611 -0.476493 -0.492253 -0.478198 -0.499527 ]
+[5.109012 0.476954 0.489608 0.480536 0.498634 ]
+
+No adv!
+time: 0.018218 
+
+
+numSplits: 6
+./delta_network_test 3 nnet/ACASXU_run2a_3_8_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_3_8_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 2.0922
+Average difference: 0.0002
+Initial output delta:
+[-16.929467 -2.181329 -1.882490 -2.255233 -3.714934 ]
+[16.885032 2.192893 1.849042 2.268146 3.691062 ]
+
+No adv!
+time: 0.071897 
+
+
+numSplits: 118
+./delta_network_test 3 nnet/ACASXU_run2a_3_9_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_3_9_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 2.0571
+Average difference: 0.0002
+Initial output delta:
+[-10.338194 -1.201259 -1.605379 -1.109771 -1.090733 ]
+[10.403912 1.189010 1.608009 1.099901 1.064884 ]
+
+No adv!
+time: 0.401373 
+
+
+numSplits: 1228
+./delta_network_test 3 nnet/ACASXU_run2a_4_1_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_4_1_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.1886
+Average difference: 0.0001
+Initial output delta:
+[-4.857469 -4.796897 -5.409854 -4.973550 -6.710789 ]
+[5.146692 5.146143 5.785332 5.173237 7.093032 ]
+
+No adv!
+time: 0.150979 
+
+
+numSplits: 379
+./delta_network_test 3 nnet/ACASXU_run2a_4_2_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_4_2_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.0518
+Average difference: 0.0001
+Initial output delta:
+[-5.195761 -4.983945 -5.468028 -5.262331 -6.014965 ]
+[5.251196 5.092209 5.576899 5.280762 6.154520 ]
+
+No adv!
+time: 9.781835 
+
+
+numSplits: 21071
+./delta_network_test 3 nnet/ACASXU_run2a_4_3_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_4_3_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.1610
+Average difference: 0.0001
+Initial output delta:
+[-4.698929 -3.537407 -3.161058 -3.902560 -3.885868 ]
+[4.726643 3.542437 3.173322 3.902114 3.903230 ]
+
+No adv!
+time: 0.125786 
+
+
+numSplits: 246
+./delta_network_test 3 nnet/ACASXU_run2a_4_4_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_4_4_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.1294
+Average difference: 0.0001
+Initial output delta:
+[-3.649892 -1.637666 -1.747894 -1.966372 -2.152477 ]
+[3.639208 1.635704 1.753281 1.944183 2.162915 ]
+
+No adv!
+time: 0.034481 
+
+
+numSplits: 13
+./delta_network_test 3 nnet/ACASXU_run2a_4_5_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_4_5_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.5901
+Average difference: 0.0001
+Initial output delta:
+[-3.991829 -1.431863 -1.382492 -1.721850 -1.676476 ]
+[3.997932 1.478356 1.437577 1.756846 1.766511 ]
+
+No adv!
+time: 0.032857 
+
+
+numSplits: 16
+./delta_network_test 3 nnet/ACASXU_run2a_4_6_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_4_6_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.8111
+Average difference: 0.0001
+Initial output delta:
+[-24.461636 -3.695437 -3.290541 -3.611331 -3.613072 ]
+[24.938858 3.638340 3.313805 3.623954 3.658457 ]
+
+No adv!
+time: 0.092697 
+
+
+numSplits: 127
+./delta_network_test 3 nnet/ACASXU_run2a_4_7_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_4_7_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.9072
+Average difference: 0.0001
+Initial output delta:
+[-25.844399 -3.572402 -4.500725 -3.516534 -3.881962 ]
+[25.384561 3.651234 4.547569 3.588624 3.934973 ]
+
+No adv!
+time: 0.112767 
+
+
+numSplits: 257
+./delta_network_test 3 nnet/ACASXU_run2a_4_8_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_4_8_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.9774
+Average difference: 0.0002
+Initial output delta:
+[-22.525258 -2.352789 -2.030028 -2.669254 -2.487189 ]
+[22.228324 2.393761 2.021405 2.661454 2.479872 ]
+
+No adv!
+time: 0.124075 
+
+
+numSplits: 279
+./delta_network_test 3 nnet/ACASXU_run2a_4_9_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_4_9_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 2.4573
+Average difference: 0.0002
+Initial output delta:
+[-109.065209 -18.090521 -14.335232 -15.469548 -15.919914 ]
+[108.211494 18.191980 14.340209 15.438051 15.863558 ]
+
+No adv!
+time: 0.164895 
+
+
+numSplits: 395
+./delta_network_test 3 nnet/ACASXU_run2a_5_1_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_5_1_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.0992
+Average difference: 0.0001
+Initial output delta:
+[-4.390127 -4.238555 -4.211982 -5.301180 -5.218857 ]
+[4.428423 4.296739 4.276852 5.362119 5.241015 ]
+
+No adv!
+time: 0.123719 
+
+
+numSplits: 262
+./delta_network_test 3 nnet/ACASXU_run2a_5_2_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_5_2_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.0230
+Average difference: 0.0001
+Initial output delta:
+[-1.549073 -1.711539 -1.559243 -1.794039 -1.406886 ]
+[1.473905 1.610233 1.484233 1.670534 1.400325 ]
+
+No adv!
+time: 0.060955 
+
+
+numSplits: 51
+./delta_network_test 3 nnet/ACASXU_run2a_5_3_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_5_3_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.1441
+Average difference: 0.0001
+Initial output delta:
+[-5.509779 -3.217976 -3.034128 -3.477777 -2.978649 ]
+[5.475987 3.267005 3.094079 3.504727 3.008602 ]
+
+No adv!
+time: 0.051540 
+
+
+numSplits: 42
+./delta_network_test 3 nnet/ACASXU_run2a_5_4_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_5_4_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.1945
+Average difference: 0.0001
+Initial output delta:
+[-3.123060 -1.370279 -1.372620 -1.448344 -1.501007 ]
+[3.069051 1.354581 1.345779 1.428905 1.484473 ]
+
+No adv!
+time: 0.066631 
+
+
+numSplits: 44
+./delta_network_test 3 nnet/ACASXU_run2a_5_5_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_5_5_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.5465
+Average difference: 0.0001
+Initial output delta:
+[-12.845841 -5.731099 -6.491349 -6.588631 -6.327544 ]
+[12.768649 5.704961 6.443253 6.577660 6.314310 ]
+
+No adv!
+time: 0.063105 
+
+
+numSplits: 52
+./delta_network_test 3 nnet/ACASXU_run2a_5_6_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_5_6_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.8813
+Average difference: 0.0001
+Initial output delta:
+[-30.457396 -10.590891 -5.913373 -10.205896 -7.942853 ]
+[31.531326 10.494037 5.649721 10.115307 7.962611 ]
+
+No adv!
+time: 0.096965 
+
+
+numSplits: 168
+./delta_network_test 3 nnet/ACASXU_run2a_5_7_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_5_7_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.9911
+Average difference: 0.0002
+Initial output delta:
+[-5.242497 -0.402966 -0.439127 -0.449831 -0.582775 ]
+[5.329922 0.404709 0.434220 0.451243 0.580489 ]
+
+No adv!
+time: 0.020009 
+
+
+numSplits: 12
+./delta_network_test 3 nnet/ACASXU_run2a_5_8_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_5_8_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 2.2048
+Average difference: 0.0002
+Initial output delta:
+[-19.103755 -2.472389 -2.669360 -2.009729 -2.861592 ]
+[19.078268 2.482341 2.694159 2.007809 2.875154 ]
+
+No adv!
+time: 0.070091 
+
+
+numSplits: 83
+./delta_network_test 3 nnet/ACASXU_run2a_5_9_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_5_9_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 2.0548
+Average difference: 0.0002
+Initial output delta:
+[-5.572921 -0.566984 -0.545731 -0.770815 -0.681326 ]
+[5.830564 0.540780 0.523284 0.729718 0.640358 ]
+
+No adv!
+time: 0.039384 
+
+
+numSplits: 27
+./delta_network_test 4 nnet/ACASXU_run2a_1_1_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_1_1_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.0736
+Average difference: 0.0001
+Initial output delta:
+[-1.068078 -1.279759 -1.363105 -1.425291 -1.420556 ]
+[1.024625 1.234376 1.314156 1.391529 1.386019 ]
+
+No adv!
+time: 0.077914 
+
+
+numSplits: 101
+./delta_network_test 4 nnet/ACASXU_run2a_1_2_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_1_2_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 0.9596
+Average difference: 0.0001
+Initial output delta:
+[-3.267060 -3.743018 -3.828701 -4.507593 -4.508517 ]
+[3.282260 3.786323 3.812490 4.561921 4.467478 ]
+
+No adv!
+time: 0.168965 
+
+
+numSplits: 404
+./delta_network_test 4 nnet/ACASXU_run2a_1_3_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_1_3_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.2523
+Average difference: 0.0001
+Initial output delta:
+[-3.072731 -3.093080 -3.563623 -3.358824 -3.705351 ]
+[3.130512 3.153316 3.607387 3.385495 3.727530 ]
+
+No adv!
+time: 0.138620 
+
+
+numSplits: 288
+./delta_network_test 4 nnet/ACASXU_run2a_1_4_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_1_4_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 0.8800
+Average difference: 0.0001
+Initial output delta:
+[-2.165540 -2.297747 -2.320269 -2.734367 -2.905541 ]
+[2.234280 2.338605 2.367861 2.786267 2.949898 ]
+
+No adv!
+time: 0.040997 
+
+
+numSplits: 23
+./delta_network_test 4 nnet/ACASXU_run2a_1_5_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_1_5_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 0.6850
+Average difference: 0.0001
+Initial output delta:
+[-0.268181 -0.285054 -0.283815 -0.395607 -0.362588 ]
+[0.262760 0.281550 0.279356 0.388459 0.354701 ]
+
+No adv!
+time: 0.054271 
+
+
+numSplits: 32
+./delta_network_test 4 nnet/ACASXU_run2a_1_6_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_1_6_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 0.6685
+Average difference: 0.0001
+Initial output delta:
+[-0.101304 -0.181820 -0.147132 -0.220176 -0.168496 ]
+[0.095116 0.175629 0.139036 0.215114 0.164020 ]
+
+No adv!
+time: 0.009558 
+
+
+numSplits: 2
+./delta_network_test 4 nnet/ACASXU_run2a_2_1_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_2_1_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.0337
+Average difference: 0.0001
+Initial output delta:
+[-1.406945 -1.159616 -1.106053 -1.468980 -1.485221 ]
+[1.374237 1.138833 1.092704 1.454771 1.470520 ]
+
+No adv!
+time: 0.069301 
+
+
+numSplits: 87
+./delta_network_test 4 nnet/ACASXU_run2a_2_2_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_2_2_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.2079
+Average difference: 0.0001
+Initial output delta:
+[-8.699206 -7.998844 -8.111943 -9.058013 -8.823220 ]
+[8.626917 7.884893 8.003410 8.984979 8.705694 ]
+
+No adv!
+time: 0.094823 
+
+
+numSplits: 183
+./delta_network_test 4 nnet/ACASXU_run2a_2_3_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_2_3_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.1426
+Average difference: 0.0001
+Initial output delta:
+[-0.658974 -0.451564 -0.438988 -0.567764 -0.519669 ]
+[0.657568 0.451845 0.443568 0.571760 0.525819 ]
+
+No adv!
+time: 0.060594 
+
+
+numSplits: 59
+./delta_network_test 4 nnet/ACASXU_run2a_2_4_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_2_4_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.1213
+Average difference: 0.0001
+Initial output delta:
+[-2.474680 -1.531092 -1.143905 -1.705539 -1.628585 ]
+[2.448319 1.526218 1.138290 1.691792 1.628758 ]
+
+No adv!
+time: 0.024656 
+
+
+numSplits: 13
+./delta_network_test 4 nnet/ACASXU_run2a_2_5_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_2_5_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.3181
+Average difference: 0.0001
+Initial output delta:
+[-1.764266 -0.849114 -0.749569 -0.966838 -0.808117 ]
+[1.775708 0.853710 0.757111 0.972419 0.817128 ]
+
+No adv!
+time: 0.049685 
+
+
+numSplits: 38
+./delta_network_test 4 nnet/ACASXU_run2a_2_6_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_2_6_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.8167
+Average difference: 0.0001
+Initial output delta:
+[-23.444449 -4.015498 -4.784548 -5.529921 -5.190705 ]
+[23.429136 4.017509 4.772770 5.522242 5.181163 ]
+
+No adv!
+time: 0.136292 
+
+
+numSplits: 321
+./delta_network_test 4 nnet/ACASXU_run2a_2_7_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_2_7_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 2.0470
+Average difference: 0.0002
+Initial output delta:
+[-31.889576 -3.022709 -2.744093 -2.923024 -2.791781 ]
+[32.640037 2.959168 2.756516 2.921550 2.793670 ]
+
+No adv!
+time: 0.048252 
+
+
+numSplits: 33
+./delta_network_test 4 nnet/ACASXU_run2a_2_8_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_2_8_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 2.2443
+Average difference: 0.0002
+Initial output delta:
+[-95.940743 -9.532334 -18.748646 -19.303687 -17.020531 ]
+[93.742324 9.646892 18.533554 19.034423 16.638992 ]
+
+No adv!
+time: 0.094498 
+
+
+numSplits: 144
+./delta_network_test 4 nnet/ACASXU_run2a_2_9_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_2_9_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 2.0685
+Average difference: 0.0002
+Initial output delta:
+[-3.959080 -0.312506 -0.309316 -0.461132 -0.294261 ]
+[4.022478 0.307199 0.299185 0.447608 0.286003 ]
+
+No adv!
+time: 0.019507 
+
+
+numSplits: 8
+./delta_network_test 4 nnet/ACASXU_run2a_3_1_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_3_1_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.1137
+Average difference: 0.0001
+Initial output delta:
+[-6.766144 -4.915228 -4.798905 -5.575511 -4.553632 ]
+[6.768181 4.871812 4.763667 5.530154 4.540318 ]
+
+No adv!
+time: 1.018530 
+
+
+numSplits: 3341
+./delta_network_test 4 nnet/ACASXU_run2a_3_2_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_3_2_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.0595
+Average difference: 0.0001
+Initial output delta:
+[-2.706443 -2.406142 -2.199393 -2.658270 -2.700976 ]
+[2.603300 2.297388 2.102441 2.591711 2.547890 ]
+
+No adv!
+time: 0.053128 
+
+
+numSplits: 42
+./delta_network_test 4 nnet/ACASXU_run2a_3_3_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_3_3_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.1532
+Average difference: 0.0001
+Initial output delta:
+[-0.378939 -0.265994 -0.332619 -0.294644 -0.299046 ]
+[0.378109 0.270265 0.345638 0.294026 0.304279 ]
+
+No adv!
+time: 0.017916 
+
+
+numSplits: 17
+./delta_network_test 4 nnet/ACASXU_run2a_3_4_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_3_4_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.1246
+Average difference: 0.0001
+Initial output delta:
+[-0.986848 -0.543534 -0.614894 -0.755944 -0.529819 ]
+[0.939695 0.515978 0.584399 0.697515 0.508655 ]
+
+No adv!
+time: 0.055712 
+
+
+numSplits: 34
+./delta_network_test 4 nnet/ACASXU_run2a_3_5_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_3_5_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.2647
+Average difference: 0.0001
+Initial output delta:
+[-5.929207 -1.291644 -1.739019 -1.356878 -1.444775 ]
+[5.780081 1.290457 1.753082 1.359304 1.452196 ]
+
+No adv!
+time: 0.070078 
+
+
+numSplits: 66
+./delta_network_test 4 nnet/ACASXU_run2a_3_6_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_3_6_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 2.1275
+Average difference: 0.0002
+Initial output delta:
+[-33.847230 -5.338453 -6.587281 -6.623978 -5.563333 ]
+[34.004573 5.338248 6.561476 6.630172 5.566108 ]
+
+No adv!
+time: 0.044276 
+
+
+numSplits: 46
+./delta_network_test 4 nnet/ACASXU_run2a_3_7_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_3_7_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.9974
+Average difference: 0.0002
+Initial output delta:
+[-6.144232 -0.560684 -0.633773 -0.550565 -0.596472 ]
+[6.130006 0.565090 0.626253 0.552153 0.596026 ]
+
+No adv!
+time: 0.051461 
+
+
+numSplits: 20
+./delta_network_test 4 nnet/ACASXU_run2a_3_8_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_3_8_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 2.0922
+Average difference: 0.0002
+Initial output delta:
+[-13.747083 -1.888932 -1.618598 -1.918632 -3.284063 ]
+[13.994450 1.868510 1.536171 1.905127 3.156403 ]
+
+No adv!
+time: 0.065114 
+
+
+numSplits: 50
+./delta_network_test 4 nnet/ACASXU_run2a_3_9_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_3_9_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 2.0571
+Average difference: 0.0002
+Initial output delta:
+[-14.415916 -1.678006 -2.266692 -1.578478 -1.527609 ]
+[14.918892 1.695546 2.220583 1.580067 1.506001 ]
+
+No adv!
+time: 0.183134 
+
+
+numSplits: 531
+./delta_network_test 4 nnet/ACASXU_run2a_4_1_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_4_1_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.1886
+Average difference: 0.0001
+Initial output delta:
+[-0.786078 -0.734588 -0.850403 -0.736389 -1.045114 ]
+[0.785775 0.736786 0.856856 0.725536 1.065647 ]
+
+No adv!
+time: 0.039111 
+
+
+numSplits: 23
+./delta_network_test 4 nnet/ACASXU_run2a_4_2_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_4_2_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.0518
+Average difference: 0.0001
+Initial output delta:
+[-2.520800 -2.410852 -2.667192 -2.525940 -2.946366 ]
+[2.523422 2.443115 2.688162 2.553497 2.946690 ]
+
+No adv!
+time: 0.089127 
+
+
+numSplits: 120
+./delta_network_test 4 nnet/ACASXU_run2a_4_3_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_4_3_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.1610
+Average difference: 0.0001
+Initial output delta:
+[-1.520652 -1.136233 -1.033087 -1.318839 -1.285861 ]
+[1.523034 1.128409 1.013532 1.320298 1.263582 ]
+
+No adv!
+time: 0.072381 
+
+
+numSplits: 97
+./delta_network_test 4 nnet/ACASXU_run2a_4_4_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_4_4_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.1294
+Average difference: 0.0001
+Initial output delta:
+[-3.996590 -1.807879 -1.931260 -2.156312 -2.372311 ]
+[3.977032 1.806441 1.926433 2.156316 2.370405 ]
+
+No adv!
+time: 0.054153 
+
+
+numSplits: 47
+./delta_network_test 4 nnet/ACASXU_run2a_4_5_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_4_5_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.5901
+Average difference: 0.0001
+Initial output delta:
+[-12.049400 -4.419655 -4.129690 -5.264379 -5.036681 ]
+[12.114890 4.500136 4.210680 5.291530 5.181160 ]
+
+No adv!
+time: 0.098100 
+
+
+numSplits: 122
+./delta_network_test 4 nnet/ACASXU_run2a_4_6_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_4_6_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.8111
+Average difference: 0.0001
+Initial output delta:
+[-4.495587 -0.666629 -0.596157 -0.658536 -0.658835 ]
+[4.508935 0.669217 0.598286 0.663892 0.658365 ]
+
+No adv!
+time: 0.040243 
+
+
+numSplits: 23
+./delta_network_test 4 nnet/ACASXU_run2a_4_7_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_4_7_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.9072
+Average difference: 0.0001
+Initial output delta:
+[-7.033173 -0.940567 -1.243368 -0.935373 -1.061439 ]
+[6.951921 0.950126 1.238282 0.947192 1.060250 ]
+
+No adv!
+time: 0.077602 
+
+
+numSplits: 58
+./delta_network_test 4 nnet/ACASXU_run2a_4_8_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_4_8_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.9774
+Average difference: 0.0002
+Initial output delta:
+[-30.289742 -3.371109 -2.819132 -3.587315 -3.490432 ]
+[30.254625 3.373620 2.825260 3.594402 3.500443 ]
+
+No adv!
+time: 0.080624 
+
+
+numSplits: 109
+./delta_network_test 4 nnet/ACASXU_run2a_4_9_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_4_9_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 2.4573
+Average difference: 0.0002
+Initial output delta:
+[-39.585648 -6.673575 -5.241142 -5.669802 -5.817823 ]
+[39.877052 6.614771 5.239223 5.643883 5.813983 ]
+
+No adv!
+time: 0.132063 
+
+
+numSplits: 288
+./delta_network_test 4 nnet/ACASXU_run2a_5_1_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_5_1_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.0992
+Average difference: 0.0001
+Initial output delta:
+[-2.625608 -2.510623 -2.499596 -3.114936 -3.078637 ]
+[2.619948 2.521536 2.521384 3.127706 3.089504 ]
+
+No adv!
+time: 0.067544 
+
+
+numSplits: 68
+./delta_network_test 4 nnet/ACASXU_run2a_5_2_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_5_2_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.0230
+Average difference: 0.0001
+Initial output delta:
+[-2.230505 -2.480890 -2.285436 -2.559686 -2.105921 ]
+[2.250301 2.508543 2.309057 2.601900 2.107657 ]
+
+No adv!
+time: 0.022407 
+
+
+numSplits: 17
+./delta_network_test 4 nnet/ACASXU_run2a_5_3_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_5_3_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.1441
+Average difference: 0.0001
+Initial output delta:
+[-2.112551 -1.270545 -1.211995 -1.356122 -1.167752 ]
+[2.095058 1.244245 1.190268 1.334203 1.194232 ]
+
+No adv!
+time: 0.026401 
+
+
+numSplits: 24
+./delta_network_test 4 nnet/ACASXU_run2a_5_4_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_5_4_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.1945
+Average difference: 0.0001
+Initial output delta:
+[-0.756262 -0.332415 -0.333645 -0.356031 -0.367713 ]
+[0.763239 0.327231 0.326692 0.346435 0.357226 ]
+
+No adv!
+time: 0.037516 
+
+
+numSplits: 13
+./delta_network_test 4 nnet/ACASXU_run2a_5_5_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_5_5_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.5465
+Average difference: 0.0001
+Initial output delta:
+[-9.400918 -4.182591 -4.734597 -4.805738 -4.621740 ]
+[9.354861 4.166303 4.708104 4.801385 4.611101 ]
+
+No adv!
+time: 0.066226 
+
+
+numSplits: 62
+./delta_network_test 4 nnet/ACASXU_run2a_5_6_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_5_6_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.8813
+Average difference: 0.0001
+Initial output delta:
+[-17.213372 -5.991549 -3.351091 -5.773678 -4.485957 ]
+[17.884111 5.919459 3.193408 5.704495 4.494687 ]
+
+No adv!
+time: 0.087692 
+
+
+numSplits: 117
+./delta_network_test 4 nnet/ACASXU_run2a_5_7_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_5_7_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.9911
+Average difference: 0.0002
+Initial output delta:
+[-8.342079 -0.742030 -0.792532 -0.778279 -0.949933 ]
+[8.140990 0.743601 0.811800 0.783816 0.959677 ]
+
+No adv!
+time: 0.054603 
+
+
+numSplits: 33
+./delta_network_test 4 nnet/ACASXU_run2a_5_8_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_5_8_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 2.2048
+Average difference: 0.0002
+Initial output delta:
+[-25.220593 -3.290059 -3.633837 -2.743550 -3.824809 ]
+[25.312192 3.283795 3.651022 2.733443 3.838649 ]
+
+No adv!
+time: 0.066065 
+
+
+numSplits: 70
+./delta_network_test 4 nnet/ACASXU_run2a_5_9_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_5_9_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 2.0548
+Average difference: 0.0002
+Initial output delta:
+[-11.503352 -0.964881 -1.203697 -1.395064 -1.381771 ]
+[11.994427 0.953752 1.143505 1.365388 1.310725 ]
+
+No adv!
+time: 0.054543 
+
+
+numSplits: 34
+./delta_network_test 5 nnet/ACASXU_run2a_1_1_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_1_1_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.0736
+Average difference: 0.0001
+Initial output delta:
+[-46.441338 -55.592717 -59.090306 -61.593377 -61.303509 ]
+[45.889331 54.982860 58.461929 61.158920 60.957328 ]
+
+No adv!
+time: 0.326058 
+
+
+numSplits: 916
+./delta_network_test 7 nnet/ACASXU_run2a_1_9_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_1_9_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 0.6637
+Average difference: 0.0001
+Initial output delta:
+[-11.684106 -49.814087 -33.418622 -36.902993 -25.902104 ]
+[11.765961 49.871192 33.512195 36.950901 25.959535 ]
+progress: 0/1024
+numSplits: 5595932
+./delta_network_test 8 nnet/ACASXU_run2a_2_9_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_2_9_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 2.0685
+Average difference: 0.0002
+Initial output delta:
+[-1009.948121 -78.816109 -75.024651 -111.099549 -73.645340 ]
+[1009.754577 78.787368 75.022735 111.166046 73.682991 ]
+
+No adv!
+time: 1115.941772 
+
+
+numSplits: 3700478
+./delta_network_test 9 nnet/ACASXU_run2a_3_3_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_3_3_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.1532
+Average difference: 0.0001
+Initial output delta:
+[-33.878205 -26.365704 -32.075322 -28.520447 -27.996287 ]
+[33.817237 26.251314 31.991477 28.472284 27.955852 ]
+
+No adv!
+time: 2.438486 
+
+
+numSplits: 8811
+./delta_network_test 10 nnet/ACASXU_run2a_4_5_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_4_5_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.5901
+Average difference: 0.0001
+Initial output delta:
+[-103.627038 -38.781292 -36.454220 -45.798531 -44.494217 ]
+[104.019126 38.810848 36.435855 45.694660 44.592849 ]
+
+No adv!
+time: 1.552295 
+
+
+numSplits: 4931
+./delta_network_test 11 nnet/ACASXU_run2a_1_1_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_1_1_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.0736
+Average difference: 0.0001
+Initial output delta:
+[-46.441338 -55.592717 -59.090306 -61.593377 -61.303509 ]
+[45.889331 54.982860 58.461929 61.158920 60.957328 ]
+
+No adv!
+time: 0.317247 
+
+
+numSplits: 916
+./delta_network_test 12 nnet/ACASXU_run2a_3_3_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_3_3_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.1532
+Average difference: 0.0001
+Initial output delta:
+[-294.324708 -230.111161 -279.824036 -248.811860 -244.053284 ]
+[294.406677 229.271301 278.834625 248.534805 243.537643 ]
+
+No adv!
+time: 132.233413 
+
+
+numSplits: 507194
+./delta_network_test 13 nnet/ACASXU_run2a_1_1_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_1_1_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.0736
+Average difference: 0.0001
+Initial output delta:
+[-335.763123 -402.212525 -428.090882 -447.846741 -445.913239 ]
+[336.564239 403.195678 428.913635 447.856445 446.723419 ]
+
+No adv!
+time: 15.915868 
+
+
+numSplits: 49044
+./delta_network_test 14 nnet/ACASXU_run2a_4_1_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_4_1_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.1886
+Average difference: 0.0001
+Initial output delta:
+[-351.716858 -347.388672 -390.815186 -356.455689 -482.498749 ]
+[351.429138 347.179992 390.847869 356.296844 482.544006 ]
+
+No adv!
+time: 135.135498 
+
+
+numSplits: 515865
+./delta_network_test 14 nnet/ACASXU_run2a_5_1_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_5_1_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.0992
+Average difference: 0.0001
+Initial output delta:
+[-210.648530 -201.239731 -201.123978 -252.132859 -251.278763 ]
+[211.582015 202.105026 201.797378 253.055374 251.252655 ]
+
+No adv!
+time: 1454.134643 
+
+
+numSplits: 3735613
+./delta_network_test 15 nnet/ACASXU_run2a_4_1_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_4_1_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.1886
+Average difference: 0.0001
+Initial output delta:
+[-354.791413 -350.440980 -394.247223 -359.581574 -486.719239 ]
+[354.474914 350.166564 394.207092 359.363952 486.710113 ]
+
+No adv!
+time: 501.079925 
+
+
+numSplits: 1462068
+./delta_network_test 15 nnet/ACASXU_run2a_5_1_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_5_1_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.0992
+Average difference: 0.0001
+Initial output delta:
+[-210.610749 -201.220261 -201.106461 -252.117615 -251.223008 ]
+[211.520446 202.037185 201.727264 252.971954 251.209197 ]
+
+No adv!
+time: 78.307411 
+
+
+numSplits: 306003
+./delta_network_test 16 nnet/ACASXU_run2a_1_1_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_1_1_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.0736
+Average difference: 0.0001
+Initial output delta:
+[-120.987465 -144.955521 -154.228882 -161.214371 -160.616242 ]
+[121.394439 145.411102 154.644729 161.392044 160.908081 ]
+
+No adv!
+time: 0.546397 
+
+
+numSplits: 1250
+./delta_network_test 26 nnet/ACASXU_run2a_1_1_batch_2000.nnet compressed_nnets_jiawei/ACASXU_run2a_1_1_batch_2000_16bit.nnet 0.01 -e 0
+Total difference: 1.0736
+Average difference: 0.0001
+Initial output delta:
+[-119.506630 -143.057465 -152.250351 -158.976227 -158.433243 ]
+[119.132972 142.785827 151.850875 158.728439 158.209365 ]
+
+No adv!
+time: 0.495726 
+
+
+numSplits: 1053
