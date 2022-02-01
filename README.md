@@ -1,7 +1,44 @@
-This artifact contains the code for the ASE 2020 Paper "NeuroDiff: Differential Verification of Deep Neural Networks" and documentation on how to use it. We provide a VM working out of the box [here]().
+This artifact contains the code for the ASE 2020 Paper "NeuroDiff: Differential Verification of Deep Neural Networks" and documentation on how to use it. We provide a VM working out of the box [here](). The username is "neurodiff" and the password is " " (i.e. a single space character). **Note on the VM: if you reconfigure the number of cpus on the VM, you _must_ recompile OpenBLAS (see below section). Failing to do so will cause buffer overflows and may casue NeuroDiff to produce unsound results**
 
-# Dependencies
+# Installation
+## Dependencies
+The following debian packages must be install to build and run neurodiff:
+```console
+sudo apt install make git gcc g++
+```
+In addition, if you want to compress your own neural networks, you will need the following debian packages and python packages:
+```console
+sudo apt install python3 python3-pip
+pip3 install numpy==1.18.1 tensorflow==1.14.0
+```
+In addition, NeuroDiff depends on OpenBLAS 0.3.6. We include the source code in this repo, and a script to install. To install, from this directory, run:
+```console
+bash install_OpenBLAS.sh
+```
 
+## Building
+In our paper, we evaluated five different versions of our tool: Full NeuroDiff, NeuroDiff with only convex approximations, NeuroDiff with only intermediate symbolic variables, ReluDiff+, and ReluDiff. The version to build is specified using different make rules, which we document here. The following commands assume the user in the DiffNN-Code/ directory. Note that you can specify the parallelism level using CFLAGS=-DMAX_THREAD=$NUM_THREADS. In our experiments we used NUM_THREADS=12
+
+### Building Full NeuroDiff
+```console
+CFLAGS=-DMAX_THREAD=$NUM_THREADS make clean lineqall extravarssym all
+```
+### Building NeuroDiff w/ only intermediate variables
+```console
+CFLAGS=-DMAX_THREAD=$NUM_THREADS make clean lineq extravars all
+```
+### Building NeuroDiff w/ only convex approximations
+```console
+CFLAGS=-DMAX_THREAD=$NUM_THREADS make clean lineqall all
+```
+### Building ReluDiff+
+```console
+CFLAGS=-DMAX_THREAD=$NUM_THREADS make clean lineq all
+```
+### Building ReluDiff
+```console
+CFLAGS=-DMAX_THREAD=$NUM_THREADS make clean all
+```
 
 # File Contents
 Here we document the source code, which is located in the folder ~/DiffNN-Code in the VM, and DiffNN-Code in this repository. The documentation for running NeuroDiff and ReluDiff can be found in the [next section](#tool-usage-documentation).
@@ -52,14 +89,6 @@ This directory contains scripts for:
 #### nnet/
 This directory contains all of the neural networks used in our examples. The file format for the neural network is described [here](https://github.com/sisl/NNet/).
 
-# Building
-In our paper, we evaluated four different versions of our tool: Full NeuroDiff, NeuroDiff with only convex approximations, NeuroDiff with only intermediate symbolic variables, and ReluDiff+. The version to build is specified using different make rules, which we document here. The following commands assume the user in the DiffNN-Code/ directory.
-
-## Building Full NeuroDiff
-```
-
-```
-
 
 # Tool Usage Documentation
 Here we document how to use the various scripts and tools for each of the techniques we evaluated in our paper.
@@ -77,8 +106,26 @@ This is NeuroDiff/ReluDiff's main executable. To get a help menu, run *./delta\_
 - OPTIONS<br/>
 	-p PERTURB : specifies the strength of the global perturbation to apply to the MNIST and HAR properties. For MNIST this should be an integer between 0-254. For HAR, this should be a float between -1 to 1.<br/>
 	-x NUM_PIX : Performs pixel perturbation on the MNIST images instead of global perturbation. NUM_PIX is the number of pixels to randomly select for perturbation.<br/>
-	-e NUM_EXTRA_VARS : the max number of extra variables that can be used during a forward pass. Setting NUM_EXTRA_VARS=0 will use the heuristic described in the paper (this is probably what you want).
+	-e NUM_EXTRA_VARS : the max number of extra variables that can be used during a forward pass. Setting NUM_EXTRA_VARS=0 will use the heuristic described in the paper (this is probably what you want). Only valid when compiled with "extravars" or "extravarssym" make rule.
 	-m DEPTH : (not used for our paper) forces the analysis to 2^DEPTH splits and then prints region verified at each depth<br/>
+### Output
+Running the above execuatable will produce some output about the verification results. We illustrate on an example:
+```console
+./delta_network_test 1 nnet/ACASXU_run2a_1_1_batch_2000.nnet compressed_nnets/ACASXU_run2a_1_1_batch_2000_16bit.nnet 0.05 -e 0
+Total difference: 1.0736
+Average difference: 0.0001
+Normalizing input
+Initial output delta:
+[-269.650666 -323.034150 -343.905884 -359.871644 -358.394318 ]
+[270.809356 324.417053 345.055053 360.276184 359.276062 ]
+progress: [===                                               ] 4.10%
+No adv!
+time: 0.331189 
+
+
+numSplits: 213
+```
+The total difference and average difference lines refer to the total absolute weight differences between the two networks, and the average difference between each pair of weights. The two arrays after "Initial output delta:" are the lower and upper bounds of the difference between the two networks computed on the _first forward pass_. "No adv!" indicates that the property was verified, followed by total time taken to verify the property. If there is no line beginning with "time:", then ReluDiff could neither verify nor disprove the property. The last line shows the total number of times the original input interval was split.
 
 ## DiffNN-Code/python/round\_nnet.py
 This script takes in a neural net file in the .nnet format, truncates its weights to 16 bits, and then outputs the result.
@@ -88,109 +135,4 @@ python3 round_nnet.py NNET OUTPUT-PATH
 - NNET: the file path to the input neural network
 - OUTPUT-PATH: the location to write the truncated neural net to
 
-## DiffNN-Code/scripts/run\_&#10033;\_exec-time\_experiments.sh
-These four scripts correspond to the four main experiments run in our paper, namey ACAS Xu, MNIST global perturbation, MNIST 3 pixel perturbation, and HAR. They will run ReluDiff on all of the properties for the appropriate experiment and write the results to a log file beginning with *exec-time\_out*. The log file will contain a block of text for each property. The block will start with the command that was run, followed by the command's output. For example, after running ACAS property 1 on ACAS network 1\_1, the following will be written to the log file:
-```console
-./delta_network_test 1 nnet/ACASXU_run2a_1_1_batch_2000.nnet compressed_nnets/ACASXU_run2a_1_1_batch_2000_16bit.nnet 0.05
-Initial output delta:
-[-575.950135 -690.059144 -734.842591 -768.888978 -766.148133]
-[578.371154 693.030029 737.171142 769.655822 767.615173]
-
-No adv!
-time: 2.422256
-
-numSplits: 2619
-```
-The two arrays after "Initial output delta:" are the lower and upper bounds of the difference between the two networks computed on the _first forward pass_. "No adv!" indicates that the property was verified, followed by total time taken to verify the property. If there is no line beginning with "time:", then ReluDiff could neither verify nor disprove the property. The last line shows the total number of times the original input interval was split.
-
-### DiffNN-Code/scripts/run\_&#10033;\_artifact.sh
-These four scripts contain an example of how to run ReluDiff for a single property of each of the four different experiments.
-
-### DiffNN-Code/scripts/run\_ACAS\_prop4\_depth\_exp.sh
-This collects depth information when verifying property 4 as desribed in the evaluation of our paper. Each time the forward pass is able to ceritify a sub-interval, it outputs an integer indicating the current depth to a log file.
-
-## ReluVal
-### ReluVal-for-comparison/network\_test
-This is the main executable for running ReluVal in our experiments. It's usage is identical to *delta\_network\_test* except that it takes a single subtracted neural network instead of two neural networks. It's output is also identical to *delta\_network\_test*.
-
-### ReluVal-for-comparison/scripts
-This directory contains scripts for running ReluVal's experiments as described in our paper. They are identical to ReluDiff's experimental scripts.
-
-## DeepPoly
-### eran/tf\_verify/diff\_analysis.py
-This is the main entry script for running the DeepPoly experiments described in the paper. It takes a single argument indicating which of the four experiments to run.
-```console
-# from the eran/tf_verify directory
-python3 diff_analysis.py [acas|mnist-global|mnist-3pixel|har]
-```
-For each property it tries to verify, the script will output a line beginning with "Result: " followed by triple of floating points. The first float is the time taken to perform the verification. The next two floats are the upper and lower bound of the target output neuron. The next line will either be "Failed" or "Verified" indicating the verification result. Note that "Failed" means that the result was inconclusive.
-
-### eran/tf\_verify/diff\_analysis\_artifact.py
-This is the main entry script for running our artifact experiments. It's usage and output is identical to the above, however it only runs a small subset of the experiements.
-
 # Running the Experiments
-Here we document how to re-run our experiments.
-## Compile the Code
-Both ReluDiff and ReluVal can be compiled either with or without multi-threading. If you want multithreading, you will need to specify how many threads. In the evaluation of our paper, we configured 10 threads, so if you want to reproduce our experiments, you should compile both ReluDiff and ReluVal as such.
-
-To compile without threads, run:
-```console
-# from DiffNN-code/ or ReluVal-for-comparison/
-make clean all
-```
-
-To compile in multi-threaded mode, run:
-```console
-# from DiffNN-code/ or ReluVal-for-comparison/
-CFLAGS+=-DMAX_THREAD=10 make clean all
-```
-Replace 10 with the desired number of threads.
-
-## Generate the Compressed Networks
-```console
-# from DiffNN-Code/
-bash scripts/make_all_compressed_nnets.sh
-```
-
-## Run the experiments
-### Artifact Experiments
-We provide scripts that run a few  of our main experiments for demonstration purposes. These scripts will write the output directly to the screen. The experiments they run are (in order):
-- ACAS property 6
-- A single MNIST image globally perturbed on the 3x100 network
-- A single MNIST image 3 pixel perturbed on the 3x100 network
-- A single HAR input globally perturbed on the HAR network
-```console
-# from DiffNN-Code/ or ReluVal-for-comparison/
-bash scripts/run_ACAS_artifact.sh
-bash scripts/run_MNIST-global_artifact.sh
-bash scripts/run_MNIST-3pix_artifact.sh
-bash scripts/run_HAR_artifact.sh
-```
-ReluDiff should be able to verify all of these very quickly. ReluVal should finish ACAS and the MNIST 3 pixel, however it will take more than 30 minutes for the MNIST global, and it will throw a segmentation fault on HAR due to unbounded recursion.
-
-```console
-# from eran/tf_verify
-python3 diff_analysis_artifact.py acas
-python3 diff_analysis_artifact.py mnist-global
-python3 diff_analysis_artifact.py mnist-3pixel
-python3 diff_analysis_artifact.py har
-```
-DeepPoly should fail to verify all of the properties except the MNIST 3 pixel.
-
-### Full Experiments
-We also provide the scripts to re-run our full experiments. They will output the results to seperate log files beginning with *exec-time\_out*.
-```console
-# from DiffNN-Code/ or ReluVal-for-comparison/
-bash scripts/run_ACAS_exec-time_experiments.sh
-bash scripts/run_MNIST-global_exec-time_experiments.sh
-bash scripts/run_MNIST-3pix_exec-time_experiments.sh
-bash scripts/run_HAR_exec-time_experiments.sh
-```
-
-```console
-# from eran/tf_verify
-python3 diff_analysis.py acas
-python3 diff_analysis.py mnist-global
-python3 diff_analysis.py mnist-3pixel
-python3 diff_analysis.py har
-```
