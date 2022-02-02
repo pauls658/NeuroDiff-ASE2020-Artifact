@@ -1,6 +1,7 @@
 This artifact contains the code for the ASE 2020 Paper "NeuroDiff: Differential Verification of Deep Neural Networks" and documentation on how to use it. We provide a VM working out of the box [here](). The username is "neurodiff" and the password is " " (i.e. a single space character). **Note on the VM: if you reconfigure the number of cpus on the VM, you _must_ recompile OpenBLAS (see below section). Failing to do so will cause buffer overflows and may casue NeuroDiff to produce unsound results**
 
 # Installation
+This installation is tested on a an ubuntu 18 VM.
 ## Dependencies
 The following debian and python packages must be install to build and run neurodiff:
 ```console
@@ -77,23 +78,20 @@ Defines three data structures for the mnist properties, which are:
 Defines two data structures for the HAR properties, which are 
 - A 2-D array *HAR\_test* that contains 100 test inputs from the HAR data set
 - An array *HAR\_correct\_class* of 100 integers corresponding to the correct classification of the 100 test inputs
-#### python/
-This directory contains python scripts for
-- Create a truncated network (file: *round\_nnet.py*)
-## DiffNN-Code/python/round\_nnet.py
+
+#### python/round\_nnet.py
 This script takes in a neural net file in the .nnet format, truncates its weights to 16 bits, and then outputs the result.
 ```console
 python3 round_nnet.py NNET OUTPUT-PATH
 ```
 - NNET: the file path to the input neural network
 - OUTPUT-PATH: the location to write the truncated neural net to
-#### scripts/
-This directory contains scripts for:
-- Creating all of the truncated and subtracted networks used in our evaluation (file: *make\_all\_compressed\_nnets.sh*)
-- Running all of the experiments in our paper (files: *run\_&#10033;\_exec-time\_experiments.sh* and *run\_ACAS\_prop4\_depth\_exp.sh*)
-- Demonstrating example usages of ReluDiff (files: *run\_&#10033;\_artifact.sh*)
-#### nnet/
-This directory contains all of the neural networks used in our examples. The file format for the neural network is described [here](https://github.com/sisl/NNet/).
+- 
+#### table_scripts/
+This directory contains scripts for running the experiments for tables 1, 2, 3, and Figure 11, and scripts for parsing the output. We include examples in the the section "Running the Experiments" below.
+
+#### nnet/ and compressed_nnets/
+This directory contains all of the neural networks used in our paper. The file format for the neural network is described [here](https://github.com/sisl/NNet/).
 
 
 # Tool Usage Documentation
@@ -113,7 +111,8 @@ This is NeuroDiff/ReluDiff's main executable. To get a help menu, run *./delta\_
 	-p PERTURB : specifies the strength of the global perturbation to apply to the MNIST and HAR properties. For MNIST this should be an integer between 0-254. For HAR, this should be a float between -1 to 1.<br/>
 	-x NUM_PIX : Performs pixel perturbation on the MNIST images instead of global perturbation. NUM_PIX is the number of pixels to randomly select for perturbation.<br/>
 	-e NUM_EXTRA_VARS : the max number of extra variables that can be used during a forward pass. Setting NUM_EXTRA_VARS=0 will use the heuristic described in the paper (this is probably what you want). Only valid when compiled with "extravars" or "extravarssym" make rule.
-	-m DEPTH : (not used for our paper) forces the analysis to 2^DEPTH splits and then prints region verified at each depth<br/>
+	-m DEPTH : forces the analysis to 2^DEPTH splits and then prints region verified at each depth. Using DEPTH=0 runs a single forward pass and prints the computed delta interval.<br/>
+	
 ### Output
 Running the above execuatable will produce some output about the verification results. We illustrate on an example:
 ```console
