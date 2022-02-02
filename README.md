@@ -1,11 +1,11 @@
-This artifact contains the code for the ASE 2020 Paper "NeuroDiff: Differential Verification of Deep Neural Networks" and documentation on how to use it. We provide a VM working out of the box [here](). The username is "neurodiff" and the password is " " (i.e. a single space character). **Note on the VM: if you reconfigure the number of cpus on the VM, you _must_ recompile OpenBLAS (see below section). Failing to do so will cause buffer overflows and may casue NeuroDiff to produce unsound results**
+This artifact contains the code for the ASE 2020 Paper "NeuroDiff: Differential Verification of Deep Neural Networks" and documentation on how to use it. We provide a VM working out of the box [here](). The username is "neurodiff" and the password is " " (i.e. a single space character). **Note on the VM: if you reconfigure the number of cpus on the VM, you _must_ reinstall OpenBLAS (you can use the install script from the installation instructions). Failing to do so will cause buffer overflows and may casue NeuroDiff to produce unsound results**
 
 # Installation
-This installation is tested on a an ubuntu 18 VM.
+This installation is tested on a an ubuntu 18 VM. To install, clone this repository on the target machine, install the dependencies listed below, and then build neurodiff.
 ## Dependencies
 The following debian and python packages must be install to build and run neurodiff:
 ```console
-sudo apt install make git gcc g++ python3 python3-pip
+sudo apt install make git gcc g++ python3 python3-pip git unzip
 pip3 install tabulate
 ```
 In addition, if you want to compress your own neural networks, you will need the following python packages:
@@ -14,7 +14,10 @@ pip3 install numpy==1.18.1 tensorflow==1.14.0
 ```
 In addition, NeuroDiff depends on OpenBLAS 0.3.6. We include the source code in this repo, and a script to install. To install, from this directory, run:
 ```console
+# installs openblas to ../DiffNN-Code
 bash install_OpenBLAS.sh
+# Add ../DiffNN-Code to the library/include path 
+. set_paths.sh
 ```
 
 ## Building
@@ -133,7 +136,7 @@ numSplits: 213
 The total difference and average difference lines refer to the total absolute weight differences between the two networks, and the average difference between each pair of weights. The two arrays after "Initial output delta:" are the lower and upper bounds of the difference between the two networks computed on the _first forward pass_. "No adv!" indicates that the property was verified, followed by total time taken to verify the property. If there is no line beginning with "time:", then ReluDiff could neither verify nor disprove the property. The last line shows the total number of times the original input interval was split.
 
 # Running the Experiments
-We provide scripts with the commands used to produce Tables 1, 2, 3, and Figure 11. All commands below assume the user is in the directory DiffNN-Code/. The printed result tables are taken from the paper, which were run on the hardware described in Section 5.2 with 12 threads. We include the logs from these experiments in the directory logs_ASE/.
+We provide scripts with the commands used to produce Tables 1, 2, 3, and Figure 11. All commands below assume the user is in the directory DiffNN-Code/. The printed result tables are taken from the paper, which were run on the hardware described in Section 5.2 with 12 threads. You should update the NUM_THREADS variable in the scripts table_1.sh, table_2.sh, table_3.sh, and fig11.sh in the table_scripts/ directory. In addition, we also include artifact scripts that will run a small set of our experiments under the directory artifact_scripts/. There usage is identical to the scripts under table_scripts/.
 ### Table 1
 ```console
 # runs the verification, and collects output in the file neurodiff_acas_0.05 and reludiffp_acas_0.05
