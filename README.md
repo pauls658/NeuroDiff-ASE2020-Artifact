@@ -2,14 +2,14 @@ This artifact contains the code for the ASE 2020 Paper "NeuroDiff: Differential 
 
 # Installation
 ## Dependencies
-The following debian packages must be install to build and run neurodiff:
+The following debian and python packages must be install to build and run neurodiff:
 ```console
-sudo apt install make git gcc g++
+sudo apt install make git gcc g++ python3 python3-pip
+pip3 install tabulate
 ```
-In addition, if you want to compress your own neural networks, you will need the following debian packages and python packages:
+In addition, if you want to compress your own neural networks, you will need the following python packages:
 ```console
-sudo apt install python3 python3-pip
-pip3 install numpy==1.18.1 tensorflow==1.14.0
+pip3 install numpy==1.18.1 tensorflow==1.14.0 
 ```
 In addition, NeuroDiff depends on OpenBLAS 0.3.6. We include the source code in this repo, and a script to install. To install, from this directory, run:
 ```console
@@ -80,7 +80,13 @@ Defines two data structures for the HAR properties, which are
 #### python/
 This directory contains python scripts for
 - Create a truncated network (file: *round\_nnet.py*)
-- Create a subtracted network (file: *subtract\_nnets.py*)
+## DiffNN-Code/python/round\_nnet.py
+This script takes in a neural net file in the .nnet format, truncates its weights to 16 bits, and then outputs the result.
+```console
+python3 round_nnet.py NNET OUTPUT-PATH
+```
+- NNET: the file path to the input neural network
+- OUTPUT-PATH: the location to write the truncated neural net to
 #### scripts/
 This directory contains scripts for:
 - Creating all of the truncated and subtracted networks used in our evaluation (file: *make\_all\_compressed\_nnets.sh*)
@@ -106,6 +112,7 @@ This is NeuroDiff/ReluDiff's main executable. To get a help menu, run *./delta\_
 - OPTIONS<br/>
 	-p PERTURB : specifies the strength of the global perturbation to apply to the MNIST and HAR properties. For MNIST this should be an integer between 0-254. For HAR, this should be a float between -1 to 1.<br/>
 	-x NUM_PIX : Performs pixel perturbation on the MNIST images instead of global perturbation. NUM_PIX is the number of pixels to randomly select for perturbation.<br/>
+	-e NUM_EXTRA_VARS : the max number of extra variables that can be used during a forward pass. Setting NUM_EXTRA_VARS=0 will use the heuristic described in the paper (this is probably what you want). Only valid when compiled with "extravars" or "extravarssym" make rule.
 	-m DEPTH : (not used for our paper) forces the analysis to 2^DEPTH splits and then prints region verified at each depth<br/>
 ### Output
 Running the above execuatable will produce some output about the verification results. We illustrate on an example:
@@ -126,12 +133,89 @@ numSplits: 213
 ```
 The total difference and average difference lines refer to the total absolute weight differences between the two networks, and the average difference between each pair of weights. The two arrays after "Initial output delta:" are the lower and upper bounds of the difference between the two networks computed on the _first forward pass_. "No adv!" indicates that the property was verified, followed by total time taken to verify the property. If there is no line beginning with "time:", then ReluDiff could neither verify nor disprove the property. The last line shows the total number of times the original input interval was split.
 
-## DiffNN-Code/python/round\_nnet.py
-This script takes in a neural net file in the .nnet format, truncates its weights to 16 bits, and then outputs the result.
-```console
-python3 round_nnet.py NNET OUTPUT-PATH
-```
-- NNET: the file path to the input neural network
-- OUTPUT-PATH: the location to write the truncated neural net to
-
 # Running the Experiments
+We provide scripts with the commands used to produce Tables 1, 2, 3, and Figure 11. All commands below assume the user is in the directory DiffNN-Code/. The printed result tables are taken from the paper, which were run on the hardware described in Section 5.2 with 12 threads. We include the logs from these experiments in the directory logs_ASE/.
+### Table 1
+```console
+# runs the verification, and collects output in the file neurodiff_acas_0.05 and reludiffp_acas_0.05
+bash table_scripts/table_1.sh
+# prints tables with results
+bash table_scripts/print_acas_res.sh neurodiff_acas_0.05 reludiffp_acas_0.05
+                        ReluDiff+                                               NeuroDiff
+|   Property |   Proved |   Undet |    Time (s) |       |   Property |   Proved |   Undet |   Time (s) |
+|------------|----------|---------|-------------|       |------------|----------|---------|------------|
+|          1 |       44 |       1 | 4800.6      |       |          1 |       45 |       0 | 343.332    |
+|          3 |       42 |       0 |    4.09981  |       |          3 |       42 |       0 |   1.68917  |
+|          4 |       42 |       0 |    2.79513  |       |          4 |       42 |       0 |   1.24225  |
+|          5 |        1 |       0 |    0.220824 |       |          5 |        1 |       0 |   0.100485 |
+|          6 |        2 |       0 |    0.407    |       |          6 |        2 |       0 |   0.309289 |
+|          7 |        0 |       1 | 1800        |       |          7 |        1 |       0 | 542.018    |
+|          8 |        1 |       0 |  361.803    |       |          8 |        1 |       0 |  71.7295   |
+|          9 |        1 |       0 |    2.31705  |       |          9 |        1 |       0 |   0.38704  |
+|         10 |        1 |       0 |    0.706996 |       |         10 |        1 |       0 |   0.51966  |
+|         11 |        1 |       0 |    0.265006 |       |         11 |        1 |       0 |   0.12171  |
+|         12 |        1 |       0 |  360.85     |       |         12 |        1 |       0 |   1.7467   |
+|         13 |        1 |       0 |    5.1239   |       |         13 |        1 |       0 |   3.41288  |
+|         14 |        2 |       0 |   95.8638   |       |         14 |        2 |       0 |   0.311279 |
+|         15 |        2 |       0 |   64.9665   |       |         15 |        2 |       0 |   0.376886 |
+
+```
+
+### Table 2
+```console
+# runs the verification, and collects output in the file neurodiff_acas_0.01 and reludiffp_acas_0.01
+bash table_scripts/table_2.sh
+# prints tables with results
+bash table_scripts/print_acas_res.sh neurodiff_acas_0.01 reludiffp_acas_0.01
+                        ReluDiff+                                               NeuroDiff
+|   Property |   Proved |   Undet |     Time (s) |      |   Property |   Proved |   Undet |     Time (s) |
+|------------|----------|---------|--------------|      |------------|----------|---------|--------------|
+|          1 |       15 |      30 | 55778.6      |      |          1 |       41 |       4 | 11400.1      |
+|          3 |       35 |       7 | 13642.2      |      |          3 |       42 |       0 |    14.2523   |
+|          4 |       37 |       5 |  9114.96     |      |          4 |       42 |       0 |     3.81368  |
+|          5 |        0 |       1 |  1800        |      |          5 |        1 |       0 |     0.326058 |
+|          6 |        2 |       0 |     0.838987 |      |          6 |        2 |       0 |     1.04212  |
+|          7 |        0 |       1 |  1800        |      |          7 |        0 |       1 |  1800        |
+|          8 |        0 |       1 |  1800        |      |          8 |        1 |       0 |  1115.94     |
+|          9 |        0 |       1 |  1800        |      |          9 |        1 |       0 |     2.43849  |
+|         10 |        1 |       0 |     1.13708  |      |         10 |        1 |       0 |     1.55229  |
+|         11 |        0 |       1 |  1800        |      |         11 |        1 |       0 |     0.317247 |
+|         12 |        0 |       1 |  1800        |      |         12 |        1 |       0 |   132.233    |
+|         13 |        1 |       0 |    14.7514   |      |         13 |        1 |       0 |    15.9159   |
+|         14 |        0 |       2 |  3600        |      |         14 |        2 |       0 |  1589.27     |
+|         15 |        0 |       2 |  3600        |      |         15 |        2 |       0 |   579.387    |
+```
+
+### Table 3
+```console
+# runs the verification, and collects output in the file reludiffp_mnist_pix and neurodiff_mnist_pix
+bash table_scripts/table_3.sh
+# print the results
+bash table_scripts/print_mnist_pix_res.sh reludiffp_mnist_pix neurodiff_mnist_pix
+                        ReluDiff+                                               NeuroDiff
+|   Num Pixels |   Proved |   Undet |   Time (s) |      |   Num Pixels |   Proved |   Undet |   Time (s) |
+|--------------|----------|---------|------------|      |--------------|----------|---------|------------|
+|           15 |      100 |       0 |    1610.16 |      |           15 |      100 |       0 |    236.461 |
+|           18 |       88 |      12 |   34505.8  |      |           18 |      100 |       0 |    540.827 |
+|           21 |       30 |      70 |  145064    |      |           21 |      100 |       0 |   1004.04  |
+|           24 |        1 |      99 |  179715.9  |      |           24 |       99 |       1 |   7860.14  |
+|	    27 |	0 |	100 |  180000.0  |      |           27 |       83 |      17 |  49824     |
+```
+
+### Figure 11
+```console
+# runs the verification, and collects output in the file reludiffp_mnist_global and neurodiff_mnist_global
+bash table_scripts/fig11.sh
+# print the results
+bash table_scripts/print_mnist_global_res.sh reludiffp_mnist_global neurodiff_mnist_global
+                ReluDiff+                               NeuroDiff
+|   Perturbation |   Proved |   Undet | |   Perturbation |   Proved |   Undet |
+|----------------|----------|---------| |----------------|----------|---------|
+|              3 |      100 |       0 | |              3 |      100 |       0 |
+|              4 |       55 |      45 | |              4 |      100 |       0 |
+|              5 |        0 |     100 | |              5 |      100 |       0 |
+|              6 |        0 |     100 | |              6 |       93 |       7 |
+|              7 |        0 |     100 | |              7 |       43 |      57 |
+|	       8 |        0 |     100 | |	       8 |        4 |      96 |
+
+```
